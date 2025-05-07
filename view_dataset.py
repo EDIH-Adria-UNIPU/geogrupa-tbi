@@ -5,7 +5,7 @@ import pathlib
 
 import cv2
 
-root = pathlib.Path("dataset")
+root = pathlib.Path("dataset/250")
 meta = json.loads((root / "index.json").read_text())
 meta.sort(key=operator.itemgetter("location_id", "yaw"))
 
@@ -15,7 +15,7 @@ locations = [list(g[1]) for g in groups]
 orientation = {0: "Front", 90: "Right", 180: "Back", 270: "Left"}
 
 
-def build_mosaic(recs, scale=0.5):
+def build_mosaic(recs, scale=0.4):
     tiles = []
     for entry in recs:
         img = cv2.imread(str(root / entry["file"]))

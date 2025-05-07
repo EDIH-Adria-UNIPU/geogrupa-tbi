@@ -1,0 +1,3641 @@
+{
+  "GPS": {
+    "Data": [
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614131.8576596,
+        "lat": 44.989988333333336,
+        "lon": 13.757667333333332,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614131.8586597,
+        "lat": 44.989988333333336,
+        "lon": 13.757667333333332,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614131.8576596,
+        "lat": 44.989988333333336,
+        "lon": 13.757667333333332,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614131.8576596,
+        "lat": 44.989988333333336,
+        "lon": 13.757667333333332,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614132.8699028,
+        "lat": 44.989989833333325,
+        "lon": 13.7576655,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614132.8699028,
+        "lat": 44.989989833333325,
+        "lon": 13.7576655,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614132.8699028,
+        "lat": 44.989989833333325,
+        "lon": 13.7576655,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614133.868161,
+        "lat": 44.990001,
+        "lon": 13.757658166666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614133.868161,
+        "lat": 44.990001,
+        "lon": 13.757658166666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614133.8691611,
+        "lat": 44.990001,
+        "lon": 13.757658166666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614133.868161,
+        "lat": 44.990001,
+        "lon": 13.757658166666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614134.8793514,
+        "lat": 44.99002900000001,
+        "lon": 13.7576415,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.800000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614134.8793514,
+        "lat": 44.99002900000001,
+        "lon": 13.7576415,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.800000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614134.8793514,
+        "lat": 44.99002900000001,
+        "lon": 13.7576415,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.800000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614135.8666794,
+        "lat": 44.990059,
+        "lon": 13.757623166666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.800000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614135.8666794,
+        "lat": 44.990059,
+        "lon": 13.757623166666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.800000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614135.8666794,
+        "lat": 44.990059,
+        "lon": 13.757623166666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.800000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614135.8666794,
+        "lat": 44.990059,
+        "lon": 13.757623166666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.800000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614136.8665667,
+        "lat": 44.990092999999995,
+        "lon": 13.7575995,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.900000095367432
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614136.8665667,
+        "lat": 44.990092999999995,
+        "lon": 13.7575995,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.900000095367432
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614136.8665667,
+        "lat": 44.990092999999995,
+        "lon": 13.7575995,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 6.900000095367432
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614137.8666556,
+        "lat": 44.99013166666667,
+        "lon": 13.757570333333335,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.0
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614137.8666556,
+        "lat": 44.99013166666667,
+        "lon": 13.757570333333335,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.0
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614137.8666556,
+        "lat": 44.99013166666667,
+        "lon": 13.757570333333335,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.0
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614137.8666556,
+        "lat": 44.99013166666667,
+        "lon": 13.757570333333335,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.0
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614138.8691523,
+        "lat": 44.990171499999995,
+        "lon": 13.757532,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.099999904632568
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614138.8691523,
+        "lat": 44.990171499999995,
+        "lon": 13.757532,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.099999904632568
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614138.8691523,
+        "lat": 44.990171499999995,
+        "lon": 13.757532,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.099999904632568
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614139.8666344,
+        "lat": 44.99021016666667,
+        "lon": 13.757487833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614139.8666344,
+        "lat": 44.99021016666667,
+        "lon": 13.757487833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614139.8666344,
+        "lat": 44.99021016666667,
+        "lon": 13.757487833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614139.8666344,
+        "lat": 44.99021016666667,
+        "lon": 13.757487833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614140.8671901,
+        "lat": 44.99024599999999,
+        "lon": 13.757437666666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.300000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614140.8671901,
+        "lat": 44.99024599999999,
+        "lon": 13.757437666666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.300000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614140.8671901,
+        "lat": 44.99024599999999,
+        "lon": 13.757437666666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.300000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614141.866419,
+        "lat": 44.99027850000001,
+        "lon": 13.757379333333331,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.400000095367432
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614141.8674192,
+        "lat": 44.99027850000001,
+        "lon": 13.757379333333331,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.400000095367432
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614141.866419,
+        "lat": 44.99027850000001,
+        "lon": 13.757379333333331,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.400000095367432
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614141.866419,
+        "lat": 44.99027850000001,
+        "lon": 13.757379333333331,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.400000095367432
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614142.8661947,
+        "lat": 44.990306333333336,
+        "lon": 13.7573095,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.400000095367432
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614142.8661947,
+        "lat": 44.990306333333336,
+        "lon": 13.7573095,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.400000095367432
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614142.8661947,
+        "lat": 44.990306333333336,
+        "lon": 13.7573095,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.400000095367432
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614143.869404,
+        "lat": 44.990329,
+        "lon": 13.757229166666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.599999904632568
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614143.869404,
+        "lat": 44.990329,
+        "lon": 13.757229166666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.599999904632568
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614143.869404,
+        "lat": 44.990329,
+        "lon": 13.757229166666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.599999904632568
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614143.869404,
+        "lat": 44.990329,
+        "lon": 13.757229166666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.599999904632568
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614144.8679528,
+        "lat": 44.99035066666667,
+        "lon": 13.757141666666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.800000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614144.8679528,
+        "lat": 44.99035066666667,
+        "lon": 13.757141666666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.800000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614144.8679528,
+        "lat": 44.99035066666667,
+        "lon": 13.757141666666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 7.800000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614145.8672602,
+        "lat": 44.990371999999994,
+        "lon": 13.757050833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 8.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614145.8672602,
+        "lat": 44.990371999999994,
+        "lon": 13.757050833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 8.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614145.8672602,
+        "lat": 44.990371999999994,
+        "lon": 13.757050833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 8.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614145.8672602,
+        "lat": 44.990371999999994,
+        "lon": 13.757050833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 8.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614146.872776,
+        "lat": 44.99039316666667,
+        "lon": 13.756956833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 8.399999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614146.872776,
+        "lat": 44.99039316666667,
+        "lon": 13.756956833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 8.399999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614146.872776,
+        "lat": 44.99039316666667,
+        "lon": 13.756956833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 8.399999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614147.8661652,
+        "lat": 44.99041483333334,
+        "lon": 13.756860833333333,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 8.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614147.8661652,
+        "lat": 44.99041483333334,
+        "lon": 13.756860833333333,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 8.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614147.8661652,
+        "lat": 44.99041483333334,
+        "lon": 13.756860833333333,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 8.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614147.8661652,
+        "lat": 44.99041483333334,
+        "lon": 13.756860833333333,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 8.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614148.8679883,
+        "lat": 44.99043616666666,
+        "lon": 13.756762499999999,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.0
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614148.8689885,
+        "lat": 44.99043616666666,
+        "lon": 13.756762499999999,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.0
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614148.8679883,
+        "lat": 44.99043616666666,
+        "lon": 13.756762499999999,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.0
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614149.8672051,
+        "lat": 44.990457500000005,
+        "lon": 13.756662166666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.300000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614149.8672051,
+        "lat": 44.990457500000005,
+        "lon": 13.756662166666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.300000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614149.8672051,
+        "lat": 44.990457500000005,
+        "lon": 13.756662166666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.300000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614149.8672051,
+        "lat": 44.990457500000005,
+        "lon": 13.756662166666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.300000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614150.8679197,
+        "lat": 44.99047900000001,
+        "lon": 13.756559833333332,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614150.8689198,
+        "lat": 44.99047900000001,
+        "lon": 13.756559833333332,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614150.8679197,
+        "lat": 44.99047900000001,
+        "lon": 13.756559833333332,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614151.876364,
+        "lat": 44.990500833333336,
+        "lon": 13.75645633333333,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614151.876364,
+        "lat": 44.990500833333336,
+        "lon": 13.75645633333333,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614151.876364,
+        "lat": 44.990500833333336,
+        "lon": 13.75645633333333,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614151.876364,
+        "lat": 44.990500833333336,
+        "lon": 13.75645633333333,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 9.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614152.8811789,
+        "lat": 44.990523,
+        "lon": 13.756350333333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 10.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614152.8811789,
+        "lat": 44.990523,
+        "lon": 13.756350333333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 10.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614152.8811789,
+        "lat": 44.990523,
+        "lon": 13.756350333333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 10.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614153.8765447,
+        "lat": 44.990544666666665,
+        "lon": 13.756245000000002,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 10.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614153.8765447,
+        "lat": 44.990544666666665,
+        "lon": 13.756245000000002,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 10.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614153.8765447,
+        "lat": 44.990544666666665,
+        "lon": 13.756245000000002,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 10.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614153.8765447,
+        "lat": 44.990544666666665,
+        "lon": 13.756245000000002,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 10.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614154.8779755,
+        "lat": 44.99056783333334,
+        "lon": 13.7561385,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 10.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614154.8779755,
+        "lat": 44.99056783333334,
+        "lon": 13.7561385,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 10.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614154.8789756,
+        "lat": 44.99056783333334,
+        "lon": 13.7561385,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 10.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614155.874225,
+        "lat": 44.99059183333334,
+        "lon": 13.756030666666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 11.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614155.874225,
+        "lat": 44.99059183333334,
+        "lon": 13.756030666666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 11.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614155.874225,
+        "lat": 44.99059183333334,
+        "lon": 13.756030666666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 11.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614155.874225,
+        "lat": 44.99059183333334,
+        "lon": 13.756030666666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 11.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614156.8783736,
+        "lat": 44.9906155,
+        "lon": 13.755924166666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 11.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614156.8773735,
+        "lat": 44.9906155,
+        "lon": 13.755924166666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 11.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614156.8783736,
+        "lat": 44.9906155,
+        "lon": 13.755924166666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 11.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614157.874764,
+        "lat": 44.9906395,
+        "lon": 13.755817166666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 11.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614157.874764,
+        "lat": 44.9906395,
+        "lon": 13.755817166666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 11.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614157.874764,
+        "lat": 44.9906395,
+        "lon": 13.755817166666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 11.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614157.874764,
+        "lat": 44.9906395,
+        "lon": 13.755817166666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 11.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614158.8764458,
+        "lat": 44.99066266666667,
+        "lon": 13.755712166666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 12.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614158.877446,
+        "lat": 44.99066266666667,
+        "lon": 13.755712166666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 12.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614158.877446,
+        "lat": 44.99066266666667,
+        "lon": 13.755712166666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 12.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614159.8742483,
+        "lat": 44.990685166666665,
+        "lon": 13.755608166666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 12.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614159.8742483,
+        "lat": 44.990685166666665,
+        "lon": 13.755608166666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 12.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614159.8742483,
+        "lat": 44.990685166666665,
+        "lon": 13.755608166666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 12.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614159.8752484,
+        "lat": 44.990685166666665,
+        "lon": 13.755608166666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 12.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614160.8670855,
+        "lat": 44.99070766666667,
+        "lon": 13.755504666666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 12.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614160.8670855,
+        "lat": 44.99070766666667,
+        "lon": 13.755504666666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 12.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614160.8660853,
+        "lat": 44.99070766666667,
+        "lon": 13.755504666666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 12.899999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614161.8669453,
+        "lat": 44.990728499999996,
+        "lon": 13.755403000000001,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 13.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614161.8669453,
+        "lat": 44.990728499999996,
+        "lon": 13.755403000000001,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 13.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614161.8669453,
+        "lat": 44.990728499999996,
+        "lon": 13.755403000000001,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 13.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614161.8669453,
+        "lat": 44.990728499999996,
+        "lon": 13.755403000000001,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 13.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614162.8762968,
+        "lat": 44.99075116666666,
+        "lon": 13.755302666666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 13.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614162.8762968,
+        "lat": 44.99075116666666,
+        "lon": 13.755302666666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 13.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614162.8762968,
+        "lat": 44.99075116666666,
+        "lon": 13.755302666666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 13.699999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614163.8761299,
+        "lat": 44.990772666666665,
+        "lon": 13.755200333333335,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 14.399999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614163.8761299,
+        "lat": 44.990772666666665,
+        "lon": 13.755200333333335,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 14.399999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614163.8761299,
+        "lat": 44.990772666666665,
+        "lon": 13.755200333333335,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 14.399999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614163.8761299,
+        "lat": 44.990772666666665,
+        "lon": 13.755200333333335,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 14.399999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614164.877083,
+        "lat": 44.9907955,
+        "lon": 13.755099166666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 14.800000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614164.877083,
+        "lat": 44.9907955,
+        "lon": 13.755099166666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 14.800000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614164.877083,
+        "lat": 44.9907955,
+        "lon": 13.755099166666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 14.800000190734863
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614165.876384,
+        "lat": 44.990818833333336,
+        "lon": 13.754997833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 15.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614165.876384,
+        "lat": 44.990818833333336,
+        "lon": 13.754997833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 15.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614165.876384,
+        "lat": 44.990818833333336,
+        "lon": 13.754997833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 15.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614165.8773842,
+        "lat": 44.990818833333336,
+        "lon": 13.754997833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 15.199999809265137
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614166.8777268,
+        "lat": 44.99084133333334,
+        "lon": 13.754896666666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 15.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614166.878727,
+        "lat": 44.99084133333334,
+        "lon": 13.754896666666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 15.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614166.8777268,
+        "lat": 44.99084133333334,
+        "lon": 13.754896666666665,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 15.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614167.8762333,
+        "lat": 44.99086366666667,
+        "lon": 13.754795999999999,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 16.200000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614167.8762333,
+        "lat": 44.99086366666667,
+        "lon": 13.754795999999999,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 16.200000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614167.8762333,
+        "lat": 44.99086366666667,
+        "lon": 13.754795999999999,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 16.200000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614167.8762333,
+        "lat": 44.99086366666667,
+        "lon": 13.754795999999999,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 16.200000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614168.8762283,
+        "lat": 44.9908855,
+        "lon": 13.754694833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 16.799999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614168.8762283,
+        "lat": 44.9908855,
+        "lon": 13.754694833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 16.799999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614168.8762283,
+        "lat": 44.9908855,
+        "lon": 13.754694833333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 16.799999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614169.8768876,
+        "lat": 44.990907166666666,
+        "lon": 13.754595666666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 17.299999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614169.8768876,
+        "lat": 44.990907166666666,
+        "lon": 13.754595666666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 17.299999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614169.8768876,
+        "lat": 44.990907166666666,
+        "lon": 13.754595666666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 17.299999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614169.8768876,
+        "lat": 44.990907166666666,
+        "lon": 13.754595666666667,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 17.299999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614170.8755467,
+        "lat": 44.99093016666667,
+        "lon": 13.7544985,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 18.299999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614170.8755467,
+        "lat": 44.99093016666667,
+        "lon": 13.7544985,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 18.299999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614170.8755467,
+        "lat": 44.99093016666667,
+        "lon": 13.7544985,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 18.299999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614171.8733008,
+        "lat": 44.9909515,
+        "lon": 13.754401666666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 18.799999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614171.8733008,
+        "lat": 44.9909515,
+        "lon": 13.754401666666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 18.799999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614171.8733008,
+        "lat": 44.9909515,
+        "lon": 13.754401666666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 18.799999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614171.8733008,
+        "lat": 44.9909515,
+        "lon": 13.754401666666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 18.799999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614172.8773665,
+        "lat": 44.99097183333333,
+        "lon": 13.754306333333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 19.200000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614172.8763664,
+        "lat": 44.99097183333333,
+        "lon": 13.754306333333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 19.200000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614172.8763664,
+        "lat": 44.99097183333333,
+        "lon": 13.754306333333334,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 19.200000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614173.8743336,
+        "lat": 44.990992999999996,
+        "lon": 13.754211999999999,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 19.700000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614173.8743336,
+        "lat": 44.990992999999996,
+        "lon": 13.754211999999999,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 19.700000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614173.8753338,
+        "lat": 44.990992999999996,
+        "lon": 13.754211999999999,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 19.700000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614173.8743336,
+        "lat": 44.990992999999996,
+        "lon": 13.754211999999999,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 19.700000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614174.873828,
+        "lat": 44.99101266666666,
+        "lon": 13.754122500000001,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 20.200000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614174.873828,
+        "lat": 44.99101266666666,
+        "lon": 13.754122500000001,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 20.200000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614174.874828,
+        "lat": 44.99101266666666,
+        "lon": 13.754122500000001,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 20.200000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614175.8760478,
+        "lat": 44.99103066666667,
+        "lon": 13.754041500000001,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 20.700000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614175.8750477,
+        "lat": 44.99103066666667,
+        "lon": 13.754041500000001,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 20.700000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614175.8750477,
+        "lat": 44.99103066666667,
+        "lon": 13.754041500000001,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 20.700000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614175.8760478,
+        "lat": 44.99103066666667,
+        "lon": 13.754041500000001,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 20.700000762939453
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614176.8653255,
+        "lat": 44.991046999999995,
+        "lon": 13.753969666666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.100000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614176.8663256,
+        "lat": 44.991046999999995,
+        "lon": 13.753969666666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.100000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614176.8653255,
+        "lat": 44.991046999999995,
+        "lon": 13.753969666666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.100000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614177.865981,
+        "lat": 44.9910595,
+        "lon": 13.753914166666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.399999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614177.864981,
+        "lat": 44.9910595,
+        "lon": 13.753914166666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.399999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614177.864981,
+        "lat": 44.9910595,
+        "lon": 13.753914166666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.399999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614177.865981,
+        "lat": 44.9910595,
+        "lon": 13.753914166666668,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.399999618530273
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614178.8650715,
+        "lat": 44.9910695,
+        "lon": 13.753871833333335,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614178.8650715,
+        "lat": 44.9910695,
+        "lon": 13.753871833333335,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614178.8650715,
+        "lat": 44.9910695,
+        "lon": 13.753871833333335,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.600000381469727
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614179.869359,
+        "lat": 44.99107733333334,
+        "lon": 13.753839666666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.799999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614179.8683589,
+        "lat": 44.99107733333334,
+        "lon": 13.753839666666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.799999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614179.869359,
+        "lat": 44.99107733333334,
+        "lon": 13.753839666666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.799999237060547
+      },
+      {
+        "is_acquired": true,
+        "unix_timestamp": 1347614179.8683589,
+        "lat": 44.99107733333334,
+        "lon": 13.753839666666666,
+        "speed": 0.0,
+        "track": 0.0,
+        "altitude": 21.799999237060547
+      }
+    ]
+  },
+  "Gyroscope": {
+    "Data": [
+      {
+        "t": 0.0,
+        "x": -0.00390625,
+        "y": 0.005859375,
+        "z": 0.009765625
+      },
+      {
+        "t": 0.25,
+        "x": -0.08203125,
+        "y": -0.00390625,
+        "z": -0.015625
+      },
+      {
+        "t": 0.5,
+        "x": 0.041015625,
+        "y": -0.005859375,
+        "z": 0.04296875
+      },
+      {
+        "t": 0.75,
+        "x": -0.068359375,
+        "y": -0.025390625,
+        "z": -0.033203125
+      },
+      {
+        "t": 1.0,
+        "x": 0.046875,
+        "y": -0.048828125,
+        "z": 0.029296875
+      },
+      {
+        "t": 1.25,
+        "x": -0.05859375,
+        "y": -0.0859375,
+        "z": -0.025390625
+      },
+      {
+        "t": 1.5,
+        "x": 0.0390625,
+        "y": -0.087890625,
+        "z": 0.037109375
+      },
+      {
+        "t": 1.75,
+        "x": 0.037109375,
+        "y": -0.06640625,
+        "z": 0.017578125
+      },
+      {
+        "t": 2.0,
+        "x": -0.05078125,
+        "y": -0.037109375,
+        "z": 0.001953125
+      },
+      {
+        "t": 2.25,
+        "x": 0.04296875,
+        "y": -0.03125,
+        "z": 0.044921875
+      },
+      {
+        "t": 2.5,
+        "x": -0.05859375,
+        "y": -0.02734375,
+        "z": 0.046875
+      },
+      {
+        "t": 2.75,
+        "x": 0.00390625,
+        "y": -0.001953125,
+        "z": 0.013671875
+      },
+      {
+        "t": 3.0,
+        "x": 0.009765625,
+        "y": 0.0078125,
+        "z": -0.005859375
+      },
+      {
+        "t": 3.25,
+        "x": 0.0,
+        "y": 0.03515625,
+        "z": -0.0859375
+      },
+      {
+        "t": 3.5,
+        "x": 0.005859375,
+        "y": 0.05078125,
+        "z": 0.048828125
+      },
+      {
+        "t": 3.75,
+        "x": 0.0078125,
+        "y": 0.0390625,
+        "z": 0.015625
+      },
+      {
+        "t": 4.0,
+        "x": -0.021484375,
+        "y": 0.046875,
+        "z": -0.0078125
+      },
+      {
+        "t": 4.25,
+        "x": -0.009765625,
+        "y": 0.03515625,
+        "z": -0.01171875
+      },
+      {
+        "t": 4.5,
+        "x": 0.021484375,
+        "y": 0.041015625,
+        "z": -0.03515625
+      },
+      {
+        "t": 4.75,
+        "x": -0.015625,
+        "y": 0.037109375,
+        "z": 0.03125
+      },
+      {
+        "t": 5.0,
+        "x": 0.025390625,
+        "y": 0.0703125,
+        "z": 0.017578125
+      },
+      {
+        "t": 5.25,
+        "x": -0.00390625,
+        "y": 0.095703125,
+        "z": 0.0078125
+      },
+      {
+        "t": 5.5,
+        "x": -0.06640625,
+        "y": 0.080078125,
+        "z": 0.005859375
+      },
+      {
+        "t": 5.75,
+        "x": 0.078125,
+        "y": 0.08984375,
+        "z": -0.0078125
+      },
+      {
+        "t": 6.0,
+        "x": 0.0,
+        "y": 0.11328125,
+        "z": 0.017578125
+      },
+      {
+        "t": 6.25,
+        "x": -0.0078125,
+        "y": 0.134765625,
+        "z": 0.017578125
+      },
+      {
+        "t": 6.5,
+        "x": 0.013671875,
+        "y": 0.1171875,
+        "z": 0.033203125
+      },
+      {
+        "t": 6.75,
+        "x": -0.111328125,
+        "y": 0.107421875,
+        "z": 0.033203125
+      },
+      {
+        "t": 7.0,
+        "x": 0.029296875,
+        "y": 0.1015625,
+        "z": -0.064453125
+      },
+      {
+        "t": 7.25,
+        "x": -0.0234375,
+        "y": 0.095703125,
+        "z": -0.16796875
+      },
+      {
+        "t": 7.5,
+        "x": -0.029296875,
+        "y": 0.1015625,
+        "z": -0.169921875
+      },
+      {
+        "t": 7.75,
+        "x": 0.0546875,
+        "y": 0.09375,
+        "z": -0.140625
+      },
+      {
+        "t": 8.0,
+        "x": -0.021484375,
+        "y": 0.111328125,
+        "z": -0.046875
+      },
+      {
+        "t": 8.25,
+        "x": 0.037109375,
+        "y": 0.12890625,
+        "z": -0.08203125
+      },
+      {
+        "t": 8.5,
+        "x": -0.048828125,
+        "y": 0.15234375,
+        "z": 0.013671875
+      },
+      {
+        "t": 8.75,
+        "x": 0.029296875,
+        "y": 0.14453125,
+        "z": -0.001953125
+      },
+      {
+        "t": 9.0,
+        "x": -0.025390625,
+        "y": 0.154296875,
+        "z": 0.009765625
+      },
+      {
+        "t": 9.25,
+        "x": -0.095703125,
+        "y": 0.158203125,
+        "z": 0.162109375
+      },
+      {
+        "t": 9.5,
+        "x": -0.078125,
+        "y": 0.158203125,
+        "z": -0.22265625
+      },
+      {
+        "t": 9.75,
+        "x": 0.12109375,
+        "y": 0.16015625,
+        "z": -0.005859375
+      },
+      {
+        "t": 10.0,
+        "x": -0.064453125,
+        "y": 0.12890625,
+        "z": -0.02734375
+      },
+      {
+        "t": 10.25,
+        "x": 0.009765625,
+        "y": 0.103515625,
+        "z": 0.021484375
+      },
+      {
+        "t": 10.5,
+        "x": -0.060546875,
+        "y": 0.07421875,
+        "z": 0.072265625
+      },
+      {
+        "t": 10.75,
+        "x": 0.013671875,
+        "y": 0.0390625,
+        "z": -0.005859375
+      },
+      {
+        "t": 11.0,
+        "x": 0.017578125,
+        "y": 0.02734375,
+        "z": 0.0078125
+      },
+      {
+        "t": 11.25,
+        "x": 0.08984375,
+        "y": 0.0078125,
+        "z": 0.01171875
+      },
+      {
+        "t": 11.5,
+        "x": -0.10546875,
+        "y": 0.0078125,
+        "z": -0.001953125
+      },
+      {
+        "t": 11.75,
+        "x": 0.052734375,
+        "y": 0.009765625,
+        "z": -0.0234375
+      },
+      {
+        "t": 12.0,
+        "x": 0.048828125,
+        "y": -0.009765625,
+        "z": -0.037109375
+      },
+      {
+        "t": 12.25,
+        "x": -0.14453125,
+        "y": 0.009765625,
+        "z": -0.0390625
+      },
+      {
+        "t": 12.5,
+        "x": 0.111328125,
+        "y": 0.01953125,
+        "z": -0.017578125
+      },
+      {
+        "t": 12.75,
+        "x": -0.05859375,
+        "y": 0.009765625,
+        "z": -0.072265625
+      },
+      {
+        "t": 13.0,
+        "x": 0.0,
+        "y": 0.00390625,
+        "z": 0.080078125
+      },
+      {
+        "t": 13.25,
+        "x": 0.01953125,
+        "y": 0.01171875,
+        "z": 0.0546875
+      },
+      {
+        "t": 13.5,
+        "x": 0.048828125,
+        "y": -0.0,
+        "z": -0.00390625
+      },
+      {
+        "t": 13.75,
+        "x": -0.060546875,
+        "y": -0.001953125,
+        "z": -0.044921875
+      },
+      {
+        "t": 14.0,
+        "x": 0.021484375,
+        "y": 0.005859375,
+        "z": 0.046875
+      },
+      {
+        "t": 14.25,
+        "x": -0.07421875,
+        "y": 0.0078125,
+        "z": -0.072265625
+      },
+      {
+        "t": 14.5,
+        "x": 0.091796875,
+        "y": 0.005859375,
+        "z": -0.064453125
+      },
+      {
+        "t": 14.75,
+        "x": -0.00390625,
+        "y": -0.005859375,
+        "z": 0.033203125
+      },
+      {
+        "t": 15.0,
+        "x": -0.064453125,
+        "y": -0.0078125,
+        "z": 0.02734375
+      },
+      {
+        "t": 15.25,
+        "x": 0.220703125,
+        "y": -0.009765625,
+        "z": -0.216796875
+      },
+      {
+        "t": 15.5,
+        "x": -0.18359375,
+        "y": 0.001953125,
+        "z": 0.18359375
+      },
+      {
+        "t": 15.75,
+        "x": 0.048828125,
+        "y": -0.00390625,
+        "z": -0.0234375
+      },
+      {
+        "t": 16.0,
+        "x": 0.04296875,
+        "y": -0.001953125,
+        "z": 0.0390625
+      },
+      {
+        "t": 16.25,
+        "x": 0.001953125,
+        "y": -0.0078125,
+        "z": -0.03515625
+      },
+      {
+        "t": 16.5,
+        "x": 0.00390625,
+        "y": -0.0,
+        "z": 0.021484375
+      },
+      {
+        "t": 16.75,
+        "x": -0.056640625,
+        "y": -0.0078125,
+        "z": -0.02734375
+      },
+      {
+        "t": 17.0,
+        "x": 0.083984375,
+        "y": -0.001953125,
+        "z": 0.037109375
+      },
+      {
+        "t": 17.25,
+        "x": 0.0390625,
+        "y": -0.0,
+        "z": 0.015625
+      },
+      {
+        "t": 17.5,
+        "x": -0.037109375,
+        "y": -0.0,
+        "z": -0.0390625
+      },
+      {
+        "t": 17.75,
+        "x": -0.064453125,
+        "y": -0.00390625,
+        "z": 0.03515625
+      },
+      {
+        "t": 18.0,
+        "x": -0.01953125,
+        "y": -0.005859375,
+        "z": -0.1796875
+      },
+      {
+        "t": 18.25,
+        "x": -0.078125,
+        "y": 0.013671875,
+        "z": 0.044921875
+      },
+      {
+        "t": 18.5,
+        "x": 0.150390625,
+        "y": -0.02734375,
+        "z": -0.130859375
+      },
+      {
+        "t": 18.75,
+        "x": -0.228515625,
+        "y": -0.021484375,
+        "z": -0.109375
+      },
+      {
+        "t": 19.0,
+        "x": 0.134765625,
+        "y": -0.009765625,
+        "z": -0.037109375
+      },
+      {
+        "t": 19.25,
+        "x": -0.08203125,
+        "y": -0.01171875,
+        "z": 0.060546875
+      },
+      {
+        "t": 19.5,
+        "x": 0.123046875,
+        "y": -0.015625,
+        "z": 0.05859375
+      },
+      {
+        "t": 19.75,
+        "x": -0.005859375,
+        "y": -0.005859375,
+        "z": -0.072265625
+      },
+      {
+        "t": 20.0,
+        "x": -0.0625,
+        "y": -0.0,
+        "z": -0.0390625
+      },
+      {
+        "t": 20.25,
+        "x": 0.046875,
+        "y": -0.013671875,
+        "z": -0.03515625
+      },
+      {
+        "t": 20.5,
+        "x": 0.0703125,
+        "y": -0.001953125,
+        "z": -0.015625
+      },
+      {
+        "t": 20.75,
+        "x": -0.037109375,
+        "y": -0.01171875,
+        "z": -0.021484375
+      },
+      {
+        "t": 21.0,
+        "x": 0.0390625,
+        "y": 0.009765625,
+        "z": 0.048828125
+      },
+      {
+        "t": 21.25,
+        "x": -0.060546875,
+        "y": -0.01171875,
+        "z": -0.05859375
+      },
+      {
+        "t": 21.5,
+        "x": -0.00390625,
+        "y": -0.0,
+        "z": 0.0546875
+      },
+      {
+        "t": 21.75,
+        "x": -0.009765625,
+        "y": 0.005859375,
+        "z": -0.00390625
+      },
+      {
+        "t": 22.0,
+        "x": -0.0703125,
+        "y": 0.005859375,
+        "z": 0.0546875
+      },
+      {
+        "t": 22.25,
+        "x": 0.224609375,
+        "y": -0.0078125,
+        "z": -0.27734375
+      },
+      {
+        "t": 22.5,
+        "x": 0.06640625,
+        "y": -0.0078125,
+        "z": -0.1953125
+      },
+      {
+        "t": 22.75,
+        "x": -0.05859375,
+        "y": -0.0,
+        "z": -0.009765625
+      },
+      {
+        "t": 23.0,
+        "x": 0.015625,
+        "y": 0.009765625,
+        "z": -0.01953125
+      },
+      {
+        "t": 23.25,
+        "x": -0.05859375,
+        "y": -0.00390625,
+        "z": -0.05859375
+      },
+      {
+        "t": 23.5,
+        "x": 0.025390625,
+        "y": 0.021484375,
+        "z": 0.072265625
+      },
+      {
+        "t": 23.75,
+        "x": 0.10546875,
+        "y": 0.005859375,
+        "z": 0.013671875
+      },
+      {
+        "t": 24.0,
+        "x": -0.015625,
+        "y": 0.01953125,
+        "z": 0.001953125
+      },
+      {
+        "t": 24.25,
+        "x": -0.033203125,
+        "y": -0.001953125,
+        "z": -0.080078125
+      },
+      {
+        "t": 24.5,
+        "x": 0.01953125,
+        "y": -0.0,
+        "z": 0.056640625
+      },
+      {
+        "t": 24.75,
+        "x": -0.03515625,
+        "y": 0.005859375,
+        "z": 0.216796875
+      },
+      {
+        "t": 25.0,
+        "x": 0.052734375,
+        "y": -0.001953125,
+        "z": -0.0546875
+      },
+      {
+        "t": 25.25,
+        "x": -0.05078125,
+        "y": 0.01171875,
+        "z": 0.134765625
+      },
+      {
+        "t": 25.5,
+        "x": -0.203125,
+        "y": -0.0,
+        "z": 0.0
+      },
+      {
+        "t": 25.75,
+        "x": -0.05078125,
+        "y": -0.00390625,
+        "z": -0.0078125
+      },
+      {
+        "t": 26.0,
+        "x": 0.0234375,
+        "y": -0.001953125,
+        "z": 0.0625
+      },
+      {
+        "t": 26.25,
+        "x": -0.064453125,
+        "y": -0.015625,
+        "z": -0.0234375
+      },
+      {
+        "t": 26.5,
+        "x": -0.025390625,
+        "y": -0.017578125,
+        "z": -0.05078125
+      },
+      {
+        "t": 26.75,
+        "x": 0.185546875,
+        "y": -0.01953125,
+        "z": 0.001953125
+      },
+      {
+        "t": 27.0,
+        "x": -0.056640625,
+        "y": -0.00390625,
+        "z": -0.009765625
+      },
+      {
+        "t": 27.25,
+        "x": 0.001953125,
+        "y": -0.013671875,
+        "z": 0.03515625
+      },
+      {
+        "t": 27.5,
+        "x": 0.001953125,
+        "y": -0.015625,
+        "z": -0.0546875
+      },
+      {
+        "t": 27.75,
+        "x": 0.017578125,
+        "y": -0.01171875,
+        "z": -0.0078125
+      },
+      {
+        "t": 28.0,
+        "x": 0.009765625,
+        "y": -0.0078125,
+        "z": -0.0234375
+      },
+      {
+        "t": 28.25,
+        "x": -0.021484375,
+        "y": 0.009765625,
+        "z": -0.029296875
+      },
+      {
+        "t": 28.5,
+        "x": 0.052734375,
+        "y": 0.005859375,
+        "z": 0.01171875
+      },
+      {
+        "t": 28.75,
+        "x": 0.01953125,
+        "y": 0.0078125,
+        "z": 0.06640625
+      },
+      {
+        "t": 29.0,
+        "x": -0.021484375,
+        "y": 0.0078125,
+        "z": 0.04296875
+      },
+      {
+        "t": 29.25,
+        "x": 0.029296875,
+        "y": 0.005859375,
+        "z": -0.056640625
+      },
+      {
+        "t": 29.5,
+        "x": 0.029296875,
+        "y": -0.001953125,
+        "z": -0.015625
+      },
+      {
+        "t": 29.75,
+        "x": -0.041015625,
+        "y": 0.0078125,
+        "z": 0.046875
+      },
+      {
+        "t": 30.0,
+        "x": 0.080078125,
+        "y": -0.005859375,
+        "z": -0.015625
+      },
+      {
+        "t": 30.25,
+        "x": 0.08203125,
+        "y": -0.0,
+        "z": -0.080078125
+      },
+      {
+        "t": 30.5,
+        "x": -0.041015625,
+        "y": -0.00390625,
+        "z": -0.109375
+      },
+      {
+        "t": 30.75,
+        "x": 0.001953125,
+        "y": 0.001953125,
+        "z": 0.060546875
+      },
+      {
+        "t": 31.0,
+        "x": -0.029296875,
+        "y": 0.001953125,
+        "z": 0.041015625
+      },
+      {
+        "t": 31.25,
+        "x": 0.037109375,
+        "y": -0.0078125,
+        "z": -0.02734375
+      },
+      {
+        "t": 31.5,
+        "x": 0.029296875,
+        "y": 0.015625,
+        "z": 0.017578125
+      },
+      {
+        "t": 31.75,
+        "x": -0.060546875,
+        "y": -0.005859375,
+        "z": 0.03515625
+      },
+      {
+        "t": 32.0,
+        "x": 0.029296875,
+        "y": 0.009765625,
+        "z": -0.005859375
+      },
+      {
+        "t": 32.25,
+        "x": 0.00390625,
+        "y": -0.005859375,
+        "z": -0.00390625
+      },
+      {
+        "t": 32.5,
+        "x": -0.046875,
+        "y": 0.005859375,
+        "z": 0.033203125
+      },
+      {
+        "t": 32.75,
+        "x": -0.11328125,
+        "y": -0.01953125,
+        "z": 0.01953125
+      },
+      {
+        "t": 33.0,
+        "x": 0.150390625,
+        "y": 0.00390625,
+        "z": 0.0546875
+      },
+      {
+        "t": 33.25,
+        "x": -0.033203125,
+        "y": 0.0078125,
+        "z": 0.005859375
+      },
+      {
+        "t": 33.5,
+        "x": 0.001953125,
+        "y": -0.015625,
+        "z": -0.052734375
+      },
+      {
+        "t": 33.75,
+        "x": 0.013671875,
+        "y": 0.005859375,
+        "z": 0.07421875
+      },
+      {
+        "t": 34.0,
+        "x": 0.0,
+        "y": 0.005859375,
+        "z": -0.001953125
+      },
+      {
+        "t": 34.25,
+        "x": 0.017578125,
+        "y": 0.005859375,
+        "z": 0.0
+      },
+      {
+        "t": 34.5,
+        "x": -0.01171875,
+        "y": -0.00390625,
+        "z": 0.044921875
+      },
+      {
+        "t": 34.75,
+        "x": -0.03125,
+        "y": -0.0,
+        "z": -0.015625
+      },
+      {
+        "t": 35.0,
+        "x": 0.0234375,
+        "y": -0.01171875,
+        "z": -0.029296875
+      },
+      {
+        "t": 35.25,
+        "x": -0.0078125,
+        "y": -0.0,
+        "z": -0.03515625
+      },
+      {
+        "t": 35.5,
+        "x": 0.017578125,
+        "y": -0.00390625,
+        "z": 0.044921875
+      },
+      {
+        "t": 35.75,
+        "x": 0.001953125,
+        "y": 0.00390625,
+        "z": -0.017578125
+      },
+      {
+        "t": 36.0,
+        "x": -0.01953125,
+        "y": 0.0078125,
+        "z": 0.037109375
+      },
+      {
+        "t": 36.25,
+        "x": 0.005859375,
+        "y": 0.0078125,
+        "z": 0.044921875
+      },
+      {
+        "t": 36.5,
+        "x": 0.060546875,
+        "y": -0.001953125,
+        "z": -0.01953125
+      },
+      {
+        "t": 36.75,
+        "x": -0.078125,
+        "y": -0.001953125,
+        "z": 0.0
+      },
+      {
+        "t": 37.0,
+        "x": 0.029296875,
+        "y": -0.00390625,
+        "z": 0.033203125
+      },
+      {
+        "t": 37.25,
+        "x": 0.033203125,
+        "y": 0.0078125,
+        "z": -0.001953125
+      },
+      {
+        "t": 37.5,
+        "x": -0.001953125,
+        "y": -0.001953125,
+        "z": -0.052734375
+      },
+      {
+        "t": 37.75,
+        "x": 0.0234375,
+        "y": -0.0,
+        "z": 0.001953125
+      },
+      {
+        "t": 38.0,
+        "x": 0.041015625,
+        "y": 0.001953125,
+        "z": 0.0078125
+      },
+      {
+        "t": 38.25,
+        "x": -0.009765625,
+        "y": 0.00390625,
+        "z": -0.00390625
+      },
+      {
+        "t": 38.5,
+        "x": 0.03515625,
+        "y": -0.009765625,
+        "z": -0.02734375
+      },
+      {
+        "t": 38.75,
+        "x": 0.015625,
+        "y": -0.009765625,
+        "z": 0.005859375
+      },
+      {
+        "t": 39.0,
+        "x": -0.021484375,
+        "y": -0.001953125,
+        "z": -0.029296875
+      },
+      {
+        "t": 39.25,
+        "x": 0.02734375,
+        "y": -0.015625,
+        "z": -0.0390625
+      },
+      {
+        "t": 39.5,
+        "x": -0.03515625,
+        "y": -0.005859375,
+        "z": -0.0234375
+      },
+      {
+        "t": 39.75,
+        "x": -0.029296875,
+        "y": 0.001953125,
+        "z": -0.013671875
+      },
+      {
+        "t": 40.0,
+        "x": 0.04296875,
+        "y": -0.00390625,
+        "z": -0.009765625
+      },
+      {
+        "t": 40.25,
+        "x": 0.005859375,
+        "y": -0.00390625,
+        "z": 0.0390625
+      },
+      {
+        "t": 40.5,
+        "x": -0.009765625,
+        "y": -0.00390625,
+        "z": -0.00390625
+      },
+      {
+        "t": 40.75,
+        "x": 0.001953125,
+        "y": -0.01171875,
+        "z": -0.021484375
+      },
+      {
+        "t": 41.0,
+        "x": -0.009765625,
+        "y": -0.0,
+        "z": 0.001953125
+      },
+      {
+        "t": 41.25,
+        "x": -0.0234375,
+        "y": -0.009765625,
+        "z": -0.015625
+      },
+      {
+        "t": 41.5,
+        "x": -0.015625,
+        "y": -0.001953125,
+        "z": 0.01171875
+      },
+      {
+        "t": 41.75,
+        "x": -0.017578125,
+        "y": -0.00390625,
+        "z": 0.001953125
+      },
+      {
+        "t": 42.0,
+        "x": -0.021484375,
+        "y": -0.005859375,
+        "z": -0.005859375
+      },
+      {
+        "t": 42.25,
+        "x": 0.00390625,
+        "y": -0.001953125,
+        "z": 0.001953125
+      },
+      {
+        "t": 42.5,
+        "x": 0.01171875,
+        "y": -0.0078125,
+        "z": -0.03515625
+      },
+      {
+        "t": 42.75,
+        "x": -0.0078125,
+        "y": -0.00390625,
+        "z": -0.02734375
+      }
+    ],
+    "Unit": "rad/s",
+    "Orientation": "yxz"
+  },
+  "Accelerometer": {
+    "Data": [
+      {
+        "t": 0.0,
+        "x": -0.41015625,
+        "y": 9.94140625,
+        "z": -0.39453125
+      },
+      {
+        "t": 0.25,
+        "x": -0.33203125,
+        "y": 9.94140625,
+        "z": -2.6953125
+      },
+      {
+        "t": 0.5,
+        "x": -0.06640625,
+        "y": 10.20703125,
+        "z": 4.0078125
+      },
+      {
+        "t": 0.75,
+        "x": 0.39453125,
+        "y": 9.41015625,
+        "z": -4.3046875
+      },
+      {
+        "t": 1.0,
+        "x": 0.01171875,
+        "y": 10.17578125,
+        "z": -1.58203125
+      },
+      {
+        "t": 1.25,
+        "x": -0.79296875,
+        "y": 9.94140625,
+        "z": -1.62109375
+      },
+      {
+        "t": 1.5,
+        "x": 0.2421875,
+        "y": 10.015625,
+        "z": -3.23046875
+      },
+      {
+        "t": 1.75,
+        "x": -0.29296875,
+        "y": 9.59765625,
+        "z": -1.8125
+      },
+      {
+        "t": 2.0,
+        "x": 0.625,
+        "y": 10.09765625,
+        "z": -1.27734375
+      },
+      {
+        "t": 2.25,
+        "x": -0.640625,
+        "y": 9.90234375,
+        "z": -1.5078125
+      },
+      {
+        "t": 2.5,
+        "x": 0.1640625,
+        "y": 10.015625,
+        "z": -0.93359375
+      },
+      {
+        "t": 2.75,
+        "x": -1.2890625,
+        "y": 10.55859375,
+        "z": -1.5078125
+      },
+      {
+        "t": 3.0,
+        "x": -0.2578125,
+        "y": 9.44140625,
+        "z": -0.43359375
+      },
+      {
+        "t": 3.25,
+        "x": 0.625,
+        "y": 9.7890625,
+        "z": -0.51171875
+      },
+      {
+        "t": 3.5,
+        "x": -1.2890625,
+        "y": 10.40234375,
+        "z": -1.58203125
+      },
+      {
+        "t": 3.75,
+        "x": 0.31640625,
+        "y": 10.90234375,
+        "z": -1.62109375
+      },
+      {
+        "t": 4.0,
+        "x": -0.2578125,
+        "y": 9.515625,
+        "z": -1.0078125
+      },
+      {
+        "t": 4.25,
+        "x": -0.02734375,
+        "y": 9.6328125,
+        "z": -0.85546875
+      },
+      {
+        "t": 4.5,
+        "x": -0.06640625,
+        "y": 9.4375,
+        "z": -1.8125
+      },
+      {
+        "t": 4.75,
+        "x": -1.13671875,
+        "y": 9.59765625,
+        "z": -0.96875
+      },
+      {
+        "t": 5.0,
+        "x": 0.05078125,
+        "y": 10.13671875,
+        "z": -0.2421875
+      },
+      {
+        "t": 5.25,
+        "x": -0.2578125,
+        "y": 9.63671875,
+        "z": -1.23828125
+      },
+      {
+        "t": 5.5,
+        "x": -0.33203125,
+        "y": 10.015625,
+        "z": -1.62109375
+      },
+      {
+        "t": 5.75,
+        "x": 0.77734375,
+        "y": 10.09375,
+        "z": -0.47265625
+      },
+      {
+        "t": 6.0,
+        "x": -0.5234375,
+        "y": 9.37109375,
+        "z": -1.35546875
+      },
+      {
+        "t": 6.25,
+        "x": -0.6796875,
+        "y": 10.09765625,
+        "z": -1.546875
+      },
+      {
+        "t": 6.5,
+        "x": -0.5625,
+        "y": 9.55859375,
+        "z": -0.51171875
+      },
+      {
+        "t": 6.75,
+        "x": -1.09765625,
+        "y": 10.2421875,
+        "z": 0.75390625
+      },
+      {
+        "t": 7.0,
+        "x": -0.33203125,
+        "y": 10.515625,
+        "z": 0.5625
+      },
+      {
+        "t": 7.25,
+        "x": -1.4453125,
+        "y": 9.328125,
+        "z": -1.546875
+      },
+      {
+        "t": 7.5,
+        "x": -1.17578125,
+        "y": 10.5546875,
+        "z": -1.9296875
+      },
+      {
+        "t": 7.75,
+        "x": -0.984375,
+        "y": 10.20703125,
+        "z": 0.63671875
+      },
+      {
+        "t": 8.0,
+        "x": 1.390625,
+        "y": 10.09765625,
+        "z": -1.390625
+      },
+      {
+        "t": 8.25,
+        "x": -1.3671875,
+        "y": 9.9765625,
+        "z": -1.16015625
+      },
+      {
+        "t": 8.5,
+        "x": -1.21484375,
+        "y": 9.71484375,
+        "z": -0.359375
+      },
+      {
+        "t": 8.75,
+        "x": -2.32421875,
+        "y": 9.63671875,
+        "z": -0.96875
+      },
+      {
+        "t": 9.0,
+        "x": -0.02734375,
+        "y": 9.98046875,
+        "z": -0.89453125
+      },
+      {
+        "t": 9.25,
+        "x": 0.73828125,
+        "y": 9.859375,
+        "z": -0.703125
+      },
+      {
+        "t": 9.5,
+        "x": -0.41015625,
+        "y": 10.09375,
+        "z": -3.15234375
+      },
+      {
+        "t": 9.75,
+        "x": -2.82421875,
+        "y": 9.40625,
+        "z": 1.86328125
+      },
+      {
+        "t": 10.0,
+        "x": -1.2890625,
+        "y": 10.55859375,
+        "z": -2.00390625
+      },
+      {
+        "t": 10.25,
+        "x": -0.48828125,
+        "y": 9.90234375,
+        "z": -0.51171875
+      },
+      {
+        "t": 10.5,
+        "x": -0.06640625,
+        "y": 10.4375,
+        "z": 0.79296875
+      },
+      {
+        "t": 10.75,
+        "x": 0.9296875,
+        "y": 9.98046875,
+        "z": -0.3203125
+      },
+      {
+        "t": 11.0,
+        "x": 0.203125,
+        "y": 10.203125,
+        "z": -0.77734375
+      },
+      {
+        "t": 11.25,
+        "x": -0.29296875,
+        "y": 11.5078125,
+        "z": -1.0859375
+      },
+      {
+        "t": 11.5,
+        "x": 0.43359375,
+        "y": 9.25390625,
+        "z": -1.0859375
+      },
+      {
+        "t": 11.75,
+        "x": 0.73828125,
+        "y": 9.94140625,
+        "z": -0.203125
+      },
+      {
+        "t": 12.0,
+        "x": 0.73828125,
+        "y": 9.44140625,
+        "z": 0.71484375
+      },
+      {
+        "t": 12.25,
+        "x": -0.79296875,
+        "y": 9.01953125,
+        "z": -3.0390625
+      },
+      {
+        "t": 12.5,
+        "x": 0.546875,
+        "y": 9.59765625,
+        "z": -1.4296875
+      },
+      {
+        "t": 12.75,
+        "x": -0.83203125,
+        "y": 10.0546875,
+        "z": -0.6640625
+      },
+      {
+        "t": 13.0,
+        "x": -0.9453125,
+        "y": 10.78515625,
+        "z": -0.81640625
+      },
+      {
+        "t": 13.25,
+        "x": 0.77734375,
+        "y": 8.90625,
+        "z": -2.2734375
+      },
+      {
+        "t": 13.5,
+        "x": 0.9296875,
+        "y": 9.09765625,
+        "z": 1.55859375
+      },
+      {
+        "t": 13.75,
+        "x": -0.02734375,
+        "y": 9.21484375,
+        "z": -2.04296875
+      },
+      {
+        "t": 14.0,
+        "x": -0.37109375,
+        "y": 9.75390625,
+        "z": 1.13671875
+      },
+      {
+        "t": 14.25,
+        "x": -0.1015625,
+        "y": 9.0546875,
+        "z": 0.33203125
+      },
+      {
+        "t": 14.5,
+        "x": 0.47265625,
+        "y": 10.3984375,
+        "z": -0.85546875
+      },
+      {
+        "t": 14.75,
+        "x": -0.6796875,
+        "y": 10.62890625,
+        "z": -0.05078125
+      },
+      {
+        "t": 15.0,
+        "x": 0.2421875,
+        "y": 10.13671875,
+        "z": -1.16015625
+      },
+      {
+        "t": 15.25,
+        "x": 1.3515625,
+        "y": 9.86328125,
+        "z": 1.90234375
+      },
+      {
+        "t": 15.5,
+        "x": 0.08984375,
+        "y": 9.94140625,
+        "z": 0.828125
+      },
+      {
+        "t": 15.75,
+        "x": 2.04296875,
+        "y": 9.0546875,
+        "z": -1.46875
+      },
+      {
+        "t": 16.0,
+        "x": 1.46875,
+        "y": 9.171875,
+        "z": -0.203125
+      },
+      {
+        "t": 16.25,
+        "x": 1.62109375,
+        "y": 9.63671875,
+        "z": -1.23828125
+      },
+      {
+        "t": 16.5,
+        "x": -1.21484375,
+        "y": 10.55859375,
+        "z": -0.08984375
+      },
+      {
+        "t": 16.75,
+        "x": 0.31640625,
+        "y": 10.51953125,
+        "z": -0.89453125
+      },
+      {
+        "t": 17.0,
+        "x": -1.2890625,
+        "y": 9.51953125,
+        "z": -2.50390625
+      },
+      {
+        "t": 17.25,
+        "x": 0.47265625,
+        "y": 10.94140625,
+        "z": 0.484375
+      },
+      {
+        "t": 17.5,
+        "x": 0.77734375,
+        "y": 9.4375,
+        "z": -1.9296875
+      },
+      {
+        "t": 17.75,
+        "x": -0.33203125,
+        "y": 10.17578125,
+        "z": 1.05859375
+      },
+      {
+        "t": 18.0,
+        "x": -0.984375,
+        "y": 10.51953125,
+        "z": 2.0546875
+      },
+      {
+        "t": 18.25,
+        "x": 1.62109375,
+        "y": 9.0546875,
+        "z": -1.0859375
+      },
+      {
+        "t": 18.5,
+        "x": -0.71484375,
+        "y": 10.4375,
+        "z": -2.2734375
+      },
+      {
+        "t": 18.75,
+        "x": -0.06640625,
+        "y": 9.71484375,
+        "z": -3.30859375
+      },
+      {
+        "t": 19.0,
+        "x": -1.40625,
+        "y": 9.3671875,
+        "z": 0.1015625
+      },
+      {
+        "t": 19.25,
+        "x": -0.1796875,
+        "y": 10.3984375,
+        "z": -1.390625
+      },
+      {
+        "t": 19.5,
+        "x": 0.546875,
+        "y": 9.9765625,
+        "z": -1.125
+      },
+      {
+        "t": 19.75,
+        "x": -0.29296875,
+        "y": 9.328125,
+        "z": -1.4296875
+      },
+      {
+        "t": 20.0,
+        "x": -0.2578125,
+        "y": 10.28125,
+        "z": -1.125
+      },
+      {
+        "t": 20.25,
+        "x": -1.0234375,
+        "y": 9.3671875,
+        "z": -0.2421875
+      },
+      {
+        "t": 20.5,
+        "x": 0.47265625,
+        "y": 9.44140625,
+        "z": -0.01171875
+      },
+      {
+        "t": 20.75,
+        "x": 0.89453125,
+        "y": 9.63671875,
+        "z": 0.5625
+      },
+      {
+        "t": 21.0,
+        "x": -1.2890625,
+        "y": 10.01953125,
+        "z": 0.0625
+      },
+      {
+        "t": 21.25,
+        "x": 1.23828125,
+        "y": 10.17578125,
+        "z": -1.046875
+      },
+      {
+        "t": 21.5,
+        "x": 0.96875,
+        "y": 10.66796875,
+        "z": -0.51171875
+      },
+      {
+        "t": 21.75,
+        "x": -1.0625,
+        "y": 9.4765625,
+        "z": -0.08984375
+      },
+      {
+        "t": 22.0,
+        "x": -0.29296875,
+        "y": 11.28515625,
+        "z": 1.55859375
+      },
+      {
+        "t": 22.25,
+        "x": -1.8671875,
+        "y": 11.6640625,
+        "z": -1.4296875
+      },
+      {
+        "t": 22.5,
+        "x": 2.5390625,
+        "y": 9.75390625,
+        "z": -1.7734375
+      },
+      {
+        "t": 22.75,
+        "x": 1.3515625,
+        "y": 9.9765625,
+        "z": -1.4296875
+      },
+      {
+        "t": 23.0,
+        "x": -0.71484375,
+        "y": 10.28125,
+        "z": -0.625
+      },
+      {
+        "t": 23.25,
+        "x": -0.140625,
+        "y": 9.40625,
+        "z": -1.23828125
+      },
+      {
+        "t": 23.5,
+        "x": 0.31640625,
+        "y": 10.01953125,
+        "z": -0.2421875
+      },
+      {
+        "t": 23.75,
+        "x": -1.17578125,
+        "y": 9.90234375,
+        "z": -1.0859375
+      },
+      {
+        "t": 24.0,
+        "x": -1.21484375,
+        "y": 9.79296875,
+        "z": -0.05078125
+      },
+      {
+        "t": 24.25,
+        "x": -0.1796875,
+        "y": 9.82421875,
+        "z": -0.01171875
+      },
+      {
+        "t": 24.5,
+        "x": 1.27734375,
+        "y": 9.1328125,
+        "z": -3.0390625
+      },
+      {
+        "t": 24.75,
+        "x": 4.9921875,
+        "y": 10.70703125,
+        "z": 1.90234375
+      },
+      {
+        "t": 25.0,
+        "x": 1.12109375,
+        "y": 10.82421875,
+        "z": -3.421875
+      },
+      {
+        "t": 25.25,
+        "x": 0.125,
+        "y": 9.5546875,
+        "z": -0.359375
+      },
+      {
+        "t": 25.5,
+        "x": 1.7734375,
+        "y": 10.86328125,
+        "z": 0.25390625
+      },
+      {
+        "t": 25.75,
+        "x": 0.01171875,
+        "y": 9.75,
+        "z": -2.50390625
+      },
+      {
+        "t": 26.0,
+        "x": 0.89453125,
+        "y": 9.59765625,
+        "z": -1.66015625
+      },
+      {
+        "t": 26.25,
+        "x": 1.0078125,
+        "y": 10.171875,
+        "z": -0.05078125
+      },
+      {
+        "t": 26.5,
+        "x": 1.8515625,
+        "y": 10.203125,
+        "z": 0.25390625
+      },
+      {
+        "t": 26.75,
+        "x": 0.203125,
+        "y": 9.63671875,
+        "z": -1.66015625
+      },
+      {
+        "t": 27.0,
+        "x": 1.27734375,
+        "y": 9.3671875,
+        "z": -0.81640625
+      },
+      {
+        "t": 27.25,
+        "x": 0.2421875,
+        "y": 10.0546875,
+        "z": -0.5859375
+      },
+      {
+        "t": 27.5,
+        "x": 0.5078125,
+        "y": 9.1328125,
+        "z": -0.81640625
+      },
+      {
+        "t": 27.75,
+        "x": -0.2578125,
+        "y": 9.82421875,
+        "z": -0.89453125
+      },
+      {
+        "t": 28.0,
+        "x": -0.2578125,
+        "y": 9.17578125,
+        "z": -0.51171875
+      },
+      {
+        "t": 28.25,
+        "x": -0.71484375,
+        "y": 10.0546875,
+        "z": -0.28125
+      },
+      {
+        "t": 28.5,
+        "x": 0.01171875,
+        "y": 9.328125,
+        "z": -1.5078125
+      },
+      {
+        "t": 28.75,
+        "x": 0.5859375,
+        "y": 10.48046875,
+        "z": -0.5859375
+      },
+      {
+        "t": 29.0,
+        "x": -0.06640625,
+        "y": 9.51953125,
+        "z": 0.1015625
+      },
+      {
+        "t": 29.25,
+        "x": 0.125,
+        "y": 10.51953125,
+        "z": -1.390625
+      },
+      {
+        "t": 29.5,
+        "x": -0.37109375,
+        "y": 9.75390625,
+        "z": -1.5078125
+      },
+      {
+        "t": 29.75,
+        "x": -0.140625,
+        "y": 9.6328125,
+        "z": -0.89453125
+      },
+      {
+        "t": 30.0,
+        "x": -0.90625,
+        "y": 10.703125,
+        "z": -3.53515625
+      },
+      {
+        "t": 30.25,
+        "x": 1.3515625,
+        "y": 9.8203125,
+        "z": 1.3671875
+      },
+      {
+        "t": 30.5,
+        "x": -0.29296875,
+        "y": 10.859375,
+        "z": -1.96484375
+      },
+      {
+        "t": 30.75,
+        "x": -0.5234375,
+        "y": 10.40234375,
+        "z": -1.62109375
+      },
+      {
+        "t": 31.0,
+        "x": 0.28125,
+        "y": 9.859375,
+        "z": -0.5859375
+      },
+      {
+        "t": 31.25,
+        "x": 0.01171875,
+        "y": 9.4375,
+        "z": -1.8515625
+      },
+      {
+        "t": 31.5,
+        "x": -0.37109375,
+        "y": 9.9765625,
+        "z": 1.17578125
+      },
+      {
+        "t": 31.75,
+        "x": -0.90625,
+        "y": 10.48046875,
+        "z": -0.3203125
+      },
+      {
+        "t": 32.0,
+        "x": 0.96875,
+        "y": 10.01953125,
+        "z": -0.81640625
+      },
+      {
+        "t": 32.25,
+        "x": 0.625,
+        "y": 8.5625,
+        "z": 0.37109375
+      },
+      {
+        "t": 32.5,
+        "x": 1.046875,
+        "y": 8.98828125,
+        "z": 0.484375
+      },
+      {
+        "t": 32.75,
+        "x": -5.19921875,
+        "y": 10.01953125,
+        "z": -0.2421875
+      },
+      {
+        "t": 33.0,
+        "x": 0.35546875,
+        "y": 10.171875,
+        "z": -1.31640625
+      },
+      {
+        "t": 33.25,
+        "x": 0.89453125,
+        "y": 9.09765625,
+        "z": 0.71484375
+      },
+      {
+        "t": 33.5,
+        "x": -0.87109375,
+        "y": 10.13671875,
+        "z": -0.77734375
+      },
+      {
+        "t": 33.75,
+        "x": 0.31640625,
+        "y": 10.62890625,
+        "z": -0.77734375
+      },
+      {
+        "t": 34.0,
+        "x": 0.203125,
+        "y": 9.82421875,
+        "z": -1.0859375
+      },
+      {
+        "t": 34.25,
+        "x": 0.35546875,
+        "y": 9.51953125,
+        "z": -0.203125
+      },
+      {
+        "t": 34.5,
+        "x": -0.02734375,
+        "y": 9.2109375,
+        "z": -0.16796875
+      },
+      {
+        "t": 34.75,
+        "x": 0.85546875,
+        "y": 9.328125,
+        "z": -1.16015625
+      },
+      {
+        "t": 35.0,
+        "x": 0.05078125,
+        "y": 9.94140625,
+        "z": -0.28125
+      },
+      {
+        "t": 35.25,
+        "x": -0.02734375,
+        "y": 10.5546875,
+        "z": -1.125
+      },
+      {
+        "t": 35.5,
+        "x": -0.06640625,
+        "y": 10.90234375,
+        "z": -1.0859375
+      },
+      {
+        "t": 35.75,
+        "x": 0.05078125,
+        "y": 10.203125,
+        "z": -0.7421875
+      },
+      {
+        "t": 36.0,
+        "x": -0.2578125,
+        "y": 9.8984375,
+        "z": -0.28125
+      },
+      {
+        "t": 36.25,
+        "x": 1.0859375,
+        "y": 9.79296875,
+        "z": -1.96484375
+      },
+      {
+        "t": 36.5,
+        "x": 0.08984375,
+        "y": 9.2890625,
+        "z": 0.33203125
+      },
+      {
+        "t": 36.75,
+        "x": -0.1015625,
+        "y": 10.55859375,
+        "z": -0.16796875
+      },
+      {
+        "t": 37.0,
+        "x": 1.27734375,
+        "y": 9.59765625,
+        "z": -1.5078125
+      },
+      {
+        "t": 37.25,
+        "x": 0.89453125,
+        "y": 9.44140625,
+        "z": 0.21875
+      },
+      {
+        "t": 37.5,
+        "x": 1.0859375,
+        "y": 9.94140625,
+        "z": -0.77734375
+      },
+      {
+        "t": 37.75,
+        "x": 0.73828125,
+        "y": 9.13671875,
+        "z": -1.0078125
+      },
+      {
+        "t": 38.0,
+        "x": 0.05078125,
+        "y": 10.05859375,
+        "z": -0.08984375
+      },
+      {
+        "t": 38.25,
+        "x": -0.02734375,
+        "y": 9.75,
+        "z": -0.16796875
+      },
+      {
+        "t": 38.5,
+        "x": 0.39453125,
+        "y": 10.09765625,
+        "z": 0.33203125
+      },
+      {
+        "t": 38.75,
+        "x": 0.08984375,
+        "y": 10.09765625,
+        "z": 1.55859375
+      },
+      {
+        "t": 39.0,
+        "x": 0.96875,
+        "y": 9.7890625,
+        "z": -0.47265625
+      },
+      {
+        "t": 39.25,
+        "x": 0.08984375,
+        "y": 10.13671875,
+        "z": 0.5234375
+      },
+      {
+        "t": 39.5,
+        "x": -0.2578125,
+        "y": 9.6328125,
+        "z": 0.984375
+      },
+      {
+        "t": 39.75,
+        "x": 0.39453125,
+        "y": 10.0546875,
+        "z": 0.25390625
+      },
+      {
+        "t": 40.0,
+        "x": -0.1015625,
+        "y": 9.515625,
+        "z": 1.59765625
+      },
+      {
+        "t": 40.25,
+        "x": 0.1640625,
+        "y": 9.59765625,
+        "z": 0.63671875
+      },
+      {
+        "t": 40.5,
+        "x": 0.31640625,
+        "y": 10.05859375,
+        "z": 0.37109375
+      },
+      {
+        "t": 40.75,
+        "x": -0.2578125,
+        "y": 9.51953125,
+        "z": -0.3203125
+      },
+      {
+        "t": 41.0,
+        "x": -0.79296875,
+        "y": 10.015625,
+        "z": 0.5625
+      },
+      {
+        "t": 41.25,
+        "x": 0.1640625,
+        "y": 9.71484375,
+        "z": -0.7421875
+      },
+      {
+        "t": 41.5,
+        "x": -0.41015625,
+        "y": 9.63671875,
+        "z": 0.25390625
+      },
+      {
+        "t": 41.75,
+        "x": -0.1796875,
+        "y": 9.7890625,
+        "z": 0.21875
+      },
+      {
+        "t": 42.0,
+        "x": -0.1796875,
+        "y": 10.05859375,
+        "z": 0.29296875
+      },
+      {
+        "t": 42.25,
+        "x": -0.06640625,
+        "y": 9.671875,
+        "z": 1.3671875
+      },
+      {
+        "t": 42.5,
+        "x": -0.37109375,
+        "y": 9.75,
+        "z": 1.328125
+      },
+      {
+        "t": 42.75,
+        "x": -0.5625,
+        "y": 9.9375,
+        "z": 1.0234375
+      }
+    ],
+    "Unit": "m/s\u00b2",
+    "Orientation": "yxz"
+  },
+  "Magnetometer": {
+    "Data": [],
+    "Unit": "\u03bcT",
+    "Orientation": "yxz"
+  },
+  "Quaternion": {
+    "Data": []
+  },
+  "Position3D": {
+    "Data": []
+  }
+}

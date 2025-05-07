@@ -4,8 +4,8 @@ import pathlib
 import cv2
 import py360convert as c2
 
-video_path = pathlib.Path("220919_111512835.mp4")
-output_root = pathlib.Path("dataset")
+video_path = pathlib.Path("220919_111808250.mp4")
+output_root = pathlib.Path("250")
 output_root.mkdir(exist_ok=True)
 
 capture = cv2.VideoCapture(str(video_path))
