@@ -4,24 +4,20 @@ from PIL import Image, ImageDraw
 from ultralytics import YOLO
 
 root = Path("dataset") / "835"
-outdir = Path("runs") / "predict_signs"
+outdir = Path("detections")
 outdir.mkdir(parents=True, exist_ok=True)
 
-# model = YOLO("yolov8n-oiv7.pt")
-model = YOLO(str(Path("models") / "yolov8s-traffic-sign.pt"))
-
-# print("Model classes:")
-# for idx, name in model.names.items():
-#     print(f"{idx}: {name}")
-
-# quit()
+# model = YOLO(str(Path("models") / "yolov8s-traffic-sign.pt"))
+model = YOLO(str(Path("models") / "yolov8n-oiv7.pt"))
 
 results = model.predict(
     source=str(root / "*.jpg"),
     save=False,
-    classes=[1, 6, 8, 10],  # traffic signs
+    # classes=[1, 6, 8, 10],  # traffic signs (yolov8s-traffic-sign)
+    classes=[497],  # street lights (yolov8n-oiv7)
     imgsz=640,
-    conf=0.6,
+    # conf=0.6, # traffic signs
+    conf=0.1,  # street lights
     verbose=False,
 )
 
@@ -38,5 +34,3 @@ for result in results:
             draw.text((xyxy[0], xyxy[1] - 10), class_name, fill="red")
         save_path = outdir / Path(img_path).name
         img.save(save_path)
-
-print(f"Annotated crops with predictions saved in → {outdir}")
