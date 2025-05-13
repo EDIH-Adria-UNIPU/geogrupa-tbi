@@ -10,6 +10,7 @@ dependencies = [
     "numpy>=2.2.5",
     "opencv-python>=4.11.0.86",
     "py360convert>=1.0.3",
+    "scikit-learn>=1.6.1",
     "telemetry-parser>=0.3.0",
     "ultralytics>=8.3.128",
 ]
