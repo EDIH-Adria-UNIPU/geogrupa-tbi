@@ -3,21 +3,21 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 from ultralytics import YOLO
 
-root = Path("dataset") / "835"
+root = Path("dataset") / "250"
 outdir = Path("detections")
 outdir.mkdir(parents=True, exist_ok=True)
 
-# model = YOLO(str(Path("models") / "yolov8s-traffic-sign.pt"))
-model = YOLO(str(Path("models") / "yolov8n-oiv7.pt"))
+model = YOLO(str(Path("models") / "yolov8s-traffic-sign.pt"))
+# model = YOLO(str(Path("models") / "yolov8n-oiv7.pt"))
 
 results = model.predict(
     source=str(root / "*.jpg"),
     save=False,
-    # classes=[1, 6, 8, 10],  # traffic signs (yolov8s-traffic-sign)
-    classes=[497],  # street lights (yolov8n-oiv7)
+    classes=[1, 6, 8, 10],  # traffic signs (yolov8s-traffic-sign)
+    # classes=[497],  # street lights (yolov8n-oiv7)
     imgsz=640,
-    # conf=0.6, # traffic signs
-    conf=0.1,  # street lights
+    conf=0.6,  # traffic signs
+    # conf=0.1,  # street lights
     verbose=False,
 )
 

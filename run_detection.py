@@ -61,6 +61,10 @@ def coord_at(t: float) -> tuple[float, float]:
     """
     Return (lat, lon) by linear interpolation on the sorted arrays.
     t = seconds since first GPS fix; we add time_offset to align clocks.
+    Args:
+        t: seconds since first GPS fix
+    Returns:
+        lat, lon: interpolated coordinates (degrees)
     """
     t += time_offset
     i = bisect.bisect_left(times, t)
@@ -78,6 +82,11 @@ def coord_at(t: float) -> tuple[float, float]:
 def bearing(lat1, lon1, lat2, lon2) -> float:
     """
     Return forward azimuth from (lat1,lon1) to (lat2,lon2) in degrees [0..360).
+    Args:
+        lat1, lon1: start point (degrees)
+        lat2, lon2: end point (degrees)
+    Returns:
+        azimuth: forward azimuth (degrees [0..360))
     """
     φ1 = math.radians(lat1)
     φ2 = math.radians(lat2)
@@ -89,8 +98,10 @@ def bearing(lat1, lon1, lat2, lon2) -> float:
 
 def car_heading(t: float) -> float:
     """
-    Centred finite‐difference heading estimate at time t (using ±HDG_DT).
-    This avoids “curved-road lookahead” bias.
+    Args:
+        t: seconds since first GPS fix (same as in coord_at())
+    Returns:
+        heading: forward azimuth of car at time t (degrees [0..360))
     """
     lat1, lon1 = coord_at(t - HDG_DT)
     lat2, lon2 = coord_at(t + HDG_DT)

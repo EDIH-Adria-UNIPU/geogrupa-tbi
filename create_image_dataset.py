@@ -10,7 +10,13 @@ out_dir.mkdir(exist_ok=True)
 
 cap = cv2.VideoCapture(str(video_path))
 fps = cap.get(cv2.CAP_PROP_FPS)
-stride = max(1, int(round(fps * 0.5)))  # 0.5 s
+
+print(f"FPS: {fps}")
+
+stride = max(1, int(round(fps * 0.5)))
+
+print(f"How many frames to skip between snapshots: {stride}")
+
 fov, yaws, pitch = 90, [0, 90, 180, 270], 0
 
 frames_seen, pano_id = 0, 0
