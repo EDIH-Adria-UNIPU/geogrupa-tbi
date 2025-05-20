@@ -60,7 +60,7 @@ models = {
     "street-light": YOLO(str(Path("models") / "yolov8n-oiv7.pt")),
 }
 class_filters = {"traffic-sign": [1, 6, 8, 10], "street-light": [497]}
-conf_thresholds = {"traffic-sign": 0.5, "street-light": 0.1}
+conf_thresholds = {"traffic-sign": 0.5, "street-light": 0.05}
 
 detection_dir = Path("detections")
 detection_dir.mkdir(exist_ok=True)

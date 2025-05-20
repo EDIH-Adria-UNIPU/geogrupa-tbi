@@ -67,7 +67,7 @@ for obj_type in detection_df["class"].unique():
         objects.append((lat, lon, obj_type))
 
         thumbs_html = "<br>".join(
-            f"<img src=''thumbnails/{t}' width='120'>" for t in group.thumb.head(3)
+            f"<img src='thumbnails/{t}' width='120'>" for t in group.thumb.head(3)
         )
         popup = folium.Popup(f"<b>{obj_type}</b><br>{thumbs_html}", max_width=400)
         color = "red" if obj_type == "traffic-sign" else "orange"
