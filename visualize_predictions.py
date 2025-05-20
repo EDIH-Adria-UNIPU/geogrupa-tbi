@@ -16,7 +16,7 @@ results = model.predict(
     classes=[1, 6, 8, 10],  # traffic signs (yolov8s-traffic-sign)
     # classes=[497],  # street lights (yolov8n-oiv7)
     imgsz=640,
-    conf=0.6,  # traffic signs
+    conf=0.5,  # traffic signs
     # conf=0.1,  # street lights
     verbose=False,
 )
