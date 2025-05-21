@@ -33,10 +33,66 @@ def llh_to_enu(lat, lon, lat0, lon0):
     return d * math.sin(br), d * math.cos(br)
 
 
-def intersection(pts, bearings):
-    A = np.column_stack((-np.sin(bearings), np.cos(bearings)))
-    c = (A * pts).sum(1)
-    return np.linalg.lstsq(A, c, rcond=None)[0]
+def intersection(
+    pts_enu_vehicle, bearings_rad
+):  # pts_enu_vehicle is [E_vehicle, N_vehicle]
+    """
+    Calculates the intersection point of multiple lines.
+    Each line is defined by a point (pts_enu_vehicle[i]) and a bearing (bearings_rad[i]).
+    Args:
+        pts_enu_vehicle (np.ndarray): Nx2 array of ENU coordinates of the vehicle for N detections.
+                                     Column 0 is East, Column 1 is North.
+        bearings_rad (np.ndarray): Nx1 array of bearings in radians (clockwise from North).
+    Returns:
+        tuple: (e_intersect, n_intersect) or (np.nan, np.nan) if error.
+    """
+    # --- Initial checks ---
+    if not isinstance(pts_enu_vehicle, np.ndarray) or not isinstance(
+        bearings_rad, np.ndarray
+    ):
+        # print("Warning: Inputs to intersection must be numpy arrays.") # Optional: for non-debug, might remove print
+        return np.nan, np.nan
+    if pts_enu_vehicle.ndim != 2 or pts_enu_vehicle.shape[1] != 2:
+        # print(f"Warning: `pts_enu_vehicle` array has wrong shape {pts_enu_vehicle.shape}. Expected (N, 2).")
+        return np.nan, np.nan
+    if bearings_rad.ndim != 1:
+        # print(f"Warning: `bearings_rad` array has wrong shape {bearings_rad.shape}. Expected (N,).")
+        return np.nan, np.nan
+    if (
+        pts_enu_vehicle.shape[0] < 2
+        or bearings_rad.shape[0] < 2
+        or pts_enu_vehicle.shape[0] != bearings_rad.shape[0]
+    ):
+        # print("Warning: Not enough points or mismatched shapes for intersection.")
+        return np.nan, np.nan
+    # --- End initial checks ---
+
+    cos_b = np.cos(bearings_rad)
+    sin_b = np.sin(bearings_rad)
+
+    # Line equation for each detection i:
+    # E_intersect * cos(bearing_i) - N_intersect * sin(bearing_i) = E_vehicle_i * cos(bearing_i) - N_vehicle_i * sin(bearing_i)
+    # This is of the form A * x_solution = b_solution_vector
+    # where x_solution = [E_intersect, N_intersect]'
+
+    # A_matrix columns are coefficients of E_intersect and N_intersect respectively
+    A_matrix = np.column_stack((cos_b, -sin_b))
+
+    # b_vector elements are the right-hand side of the equation
+    # pts_enu_vehicle[:, 0] is E_vehicle
+    # pts_enu_vehicle[:, 1] is N_vehicle
+    b_vector = pts_enu_vehicle[:, 0] * cos_b - pts_enu_vehicle[:, 1] * sin_b
+
+    try:
+        result, residuals, rank, singular_values = np.linalg.lstsq(
+            A_matrix, b_vector, rcond=None
+        )
+        return result[0], result[1]  # E_intersect, N_intersect
+    except np.linalg.LinAlgError as e:
+        print(
+            f"Linear algebra error during intersection: {e}"
+        )  # Keep this for production issues
+        return np.nan, np.nan
 
 
 def enu_to_llh(e, n, lat0, lon0):
