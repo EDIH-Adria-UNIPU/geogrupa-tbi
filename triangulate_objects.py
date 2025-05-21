@@ -60,23 +60,40 @@ for obj_type in detection_df["class"].unique():
     for cluster_id, group in subset.groupby("cluster"):
         if cluster_id < 0:
             continue
+
         pts = group[["e", "n"]].to_numpy()
         bears = np.deg2rad(group.bearing.to_numpy())
         e_int, n_int = intersection(pts, bears)
         lat, lon = enu_to_llh(e_int, n_int, lat0, lon0)
-        objects.append((lat, lon, obj_type))
 
-        if obj_type == "not_a_sign":
-            continue
+        # draw the cluster’s rays
+        for _, detection in group.iterrows():
+            folium.PolyLine(
+                [(detection.lat, detection.lon), (lat, lon)],
+                color="green",
+                weight=1,
+                opacity=0.4,
+            ).add_to(map_obj)
 
-        thumbs_html = "<br>".join(
-            f"<img src='thumbnails/{t}' width='120'>" for t in group.thumb.head(3)
-        )
-        popup = folium.Popup(f"<b>{obj_type}</b><br>{thumbs_html}", max_width=400)
-        color = "orange" if obj_type == "street-light" else "red"
-        folium.Marker([lat, lon], popup=popup, icon=folium.Icon(color=color)).add_to(
-            map_obj
-        )
+        if obj_type != "not_a_sign":
+            thumbs = "<br>".join(
+                f"<img src='thumbnails/{t}' width='120'>" for t in group.thumb.head(3)
+            )
+            popup = folium.Popup(f"<b>{obj_type}</b><br>{thumbs}", max_width=400)
+            color = "orange" if obj_type == "street-light" else "red"
+            folium.Marker(
+                [lat, lon], popup=popup, icon=folium.Icon(color=color)
+            ).add_to(map_obj)
+
+        folium.CircleMarker(
+            location=(lat, lon),
+            radius=5,
+            color="black",
+            fill=True,
+            fill_color="yellow",
+            fill_opacity=0.9,
+            popup=f"intersection of {obj_type}",
+        ).add_to(map_obj)
 
 pd.DataFrame(objects, columns=["lat", "lon", "class"]).to_csv(
     detection_dir / "objects.csv", index=False

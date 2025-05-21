@@ -47,5 +47,6 @@ def classify_sign(image_path: Path) -> str:
             },
         ],
         text_format=SignClassification,
+        temperature=0.0,
     )
     return response.output_parsed.category
