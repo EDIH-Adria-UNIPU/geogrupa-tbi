@@ -8,6 +8,8 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 
+from classify_traffic_sign import classify_sign
+
 # PARAMETERS
 horizontal_fov_deg = 90.0
 CAM_YAW_OFFSET = 25.0
@@ -108,12 +110,18 @@ for record in index:
             )
             cv2.imwrite(str(thumb_dir / thumb_name), thumb)
 
+            if obj_type == "traffic-sign":
+                detected_category = classify_sign(Path(thumb_dir) / thumb_name)
+                print(f"Detected category: {detected_category}")
+            else:
+                detected_category = obj_type
+
             csv_writer.writerow(
                 [
                     lat0,
                     lon0,
                     az,
-                    obj_type,
+                    detected_category,
                     float(box.conf[0]),
                     record["location_id"],
                     thumb_name,

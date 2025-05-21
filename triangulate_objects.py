@@ -66,11 +66,14 @@ for obj_type in detection_df["class"].unique():
         lat, lon = enu_to_llh(e_int, n_int, lat0, lon0)
         objects.append((lat, lon, obj_type))
 
+        if obj_type == "not_a_sign":
+            continue
+
         thumbs_html = "<br>".join(
             f"<img src='thumbnails/{t}' width='120'>" for t in group.thumb.head(3)
         )
         popup = folium.Popup(f"<b>{obj_type}</b><br>{thumbs_html}", max_width=400)
-        color = "red" if obj_type == "traffic-sign" else "orange"
+        color = "orange" if obj_type == "street-light" else "red"
         folium.Marker([lat, lon], popup=popup, icon=folium.Icon(color=color)).add_to(
             map_obj
         )
