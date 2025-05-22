@@ -12,7 +12,6 @@ from classify_traffic_sign import classify_sign
 
 # PARAMETERS
 horizontal_fov_deg = 90.0
-CAM_YAW_OFFSET = 25.0
 time_offset = 5.0
 HDG_DT = 1.0
 THUMB_SIZE = (120, 120)  # standard thumbnail size (width, height)
@@ -95,7 +94,7 @@ for record in index:
             norm_x = 2 * (cx / w - 0.5)
             half_fov = math.radians(horizontal_fov_deg / 2)
             offset = math.degrees(math.atan(norm_x * math.tan(half_fov)))
-            az = (heading + CAM_YAW_OFFSET + record["yaw"] + offset) % 360
+            az = (heading + record["yaw"] + offset) % 360
 
             # padded crop
             pad = 0.15
