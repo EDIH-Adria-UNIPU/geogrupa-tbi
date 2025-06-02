@@ -28,7 +28,7 @@ The system processes 360° video files to extract frames, detect objects using Y
    ```
 
    For macOS / Linux:
-   ```
+   ```bash
    cp .env.example .env
    ```
    
