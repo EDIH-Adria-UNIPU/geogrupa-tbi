@@ -12,4 +12,6 @@ wheels/
 *.mp4
 dataset/
 detections/
+detections_250/
+detections_835/
 .env

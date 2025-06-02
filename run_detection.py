@@ -12,14 +12,14 @@ from classify_traffic_sign import classify_sign
 
 # PARAMETERS
 horizontal_fov_deg = 90.0
-time_offset = 5.0
+time_offset = 3.0
 HDG_DT = 1.0
 THUMB_SIZE = (120, 120)  # standard thumbnail size (width, height)
 
-root = Path("dataset") / "250"
+root = Path("dataset") / "835"
 index = json.loads((root / "index.json").read_text())
 
-telemetry = json.loads((Path("telemetry") / "telemetry_250.json").read_text())["GPS"][
+telemetry = json.loads((Path("telemetry") / "telemetry_835.json").read_text())["GPS"][
     "Data"
 ]
 valid_fixes = [r for r in telemetry if r.get("is_acquired")]
