@@ -26,13 +26,18 @@ The system processes 360° video files to extract frames, detect objects using Y
    ```powershell
    Copy-Item .env.example .env
    ```
+
+   For macOS / Linux:
+   ```
+   cp .env.example .env
+   ```
    
    Add your OpenAI API key to the `.env` file:
    ```env
    OPENAI_API_KEY="your_openai_api_key_here"
    ```
 
-2. **Install dependencies:**
+1. **Install dependencies:**
    Dependencies will be automatically installed when running the project with `uv run`.
 
 ## Running the project
