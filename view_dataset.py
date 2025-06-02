@@ -1,11 +1,11 @@
 import itertools
 import json
 import operator
-import pathlib
+from pathlib import Path
 
 import cv2
 
-root = pathlib.Path("dataset/250")
+root = Path("dataset") / "835"
 meta = json.loads((root / "index.json").read_text())
 meta.sort(key=operator.itemgetter("location_id", "yaw"))
 

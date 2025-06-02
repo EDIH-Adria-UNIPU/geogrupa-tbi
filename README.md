@@ -1,11 +1,15 @@
-# Geogrupa TBI - AI Object Detection System
+# Geogrupa TBI - AI Geospatial Object Mapping System
 
 This project is an AI prototype system for detecting and localizing objects from georeferenced 360° videos. The system identifies:
 
-1. **Vertical traffic signs** - Road signs and traffic signalization
-2. **Street lighting poles** - Public lighting infrastructure
+1. **Traffic signs**
+2. **Street lighting poles**
 
 The system processes 360° video files to extract frames, detect objects using YOLO models, classify traffic signs using OpenAI's vision models, and triangulate object positions to create interactive maps with precise coordinates.
+
+![Sign detection](assets/sign.png)
+![Sign detection 2](assets/sign_2.png)
+![Street light detection](assets/street_light.png)
 
 ## Prerequisites
 
@@ -52,6 +56,9 @@ This will:
 3. Run object detection using YOLO models
 4. Classify detected traffic signs using OpenAI
 5. Triangulate object positions and create an interactive map
+
+![Sample output map](assets/map.png)
+![Sample output thumbnail](assets/map_thumb.png)
 
 ### Additional utilities
 

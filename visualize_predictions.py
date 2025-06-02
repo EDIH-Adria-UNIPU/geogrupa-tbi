@@ -3,7 +3,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 from ultralytics import YOLO
 
-root = Path("dataset") / "250"
+root = Path("dataset") / "835"
 outdir = Path("visualizations")
 outdir.mkdir(parents=True, exist_ok=True)
 
@@ -20,7 +20,7 @@ CONFIG = {
     },
 }
 
-CLASS_TO_DETECT = "street-light"
+CLASS_TO_DETECT = "street-light" 
 
 model = YOLO(CONFIG[CLASS_TO_DETECT]["model"])
 classes = CONFIG[CLASS_TO_DETECT]["classes"]
