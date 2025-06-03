@@ -340,7 +340,12 @@ def triangulate_objects(detection_dir: Path, telemetry_file: Path, dataset_id: s
                     f"<img src='thumbnails/{t}' width='120'>"
                     for t in group.thumb.head(3)
                 )
-                popup = folium.Popup(f"<b>{obj_type}</b><br>{thumbs}", max_width=400)
+                popup_html = (
+                    f"<b>{obj_type}</b>"
+                    f"<br>Lat: {lat:.5f}, Lon: {lon:.5f}"
+                    f"<br>{thumbs}"
+                )
+                popup = folium.Popup(popup_html, max_width=400)
                 color = "orange" if obj_type == "street-light" else "red"
                 folium.Marker(
                     [lat, lon], popup=popup, icon=folium.Icon(color=color)
@@ -353,7 +358,7 @@ def triangulate_objects(detection_dir: Path, telemetry_file: Path, dataset_id: s
                 fill=True,
                 fill_color="yellow",
                 fill_opacity=0.9,
-                popup=f"intersection of {obj_type}",
+                popup=f"intersection of {obj_type}<br>Lat: {lat:.5f}, Lon: {lon:.5f}",
             ).add_to(map_obj)
 
             objects.append(

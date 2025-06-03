@@ -88,7 +88,7 @@ The system generates:
 - Extracted image frames with telemetry data
 - Object detection results with bounding boxes
 - Traffic sign classifications
-- Interactive HTML map with triangulated object positions
+- Interactive HTML map with triangulated object positions, where clicking a marker shows its class and coordinates
 - JSON files with detection and location data
 
 ## Traffic signs reference
