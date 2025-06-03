@@ -356,9 +356,16 @@ def triangulate_objects(detection_dir: Path, telemetry_file: Path, dataset_id: s
                 popup=f"intersection of {obj_type}",
             ).add_to(map_obj)
 
-            objects.append({"lat": lat, "lon": lon, "class": obj_type})
+            objects.append(
+                {
+                    "lat": lat,
+                    "lon": lon,
+                    "class": obj_type,
+                    "num_images": len(group),
+                }
+            )
 
-    pd.DataFrame(objects, columns=["lat", "lon", "class"]).to_csv(
+    pd.DataFrame(objects, columns=["lat", "lon", "class", "num_images"]).to_csv(
         detection_dir / "objects.csv", index=False
     )
     map_obj.save(detection_dir / "objects_map.html")
