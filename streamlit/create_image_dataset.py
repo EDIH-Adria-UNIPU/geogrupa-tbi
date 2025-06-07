@@ -1,4 +1,4 @@
-def process_all_batches(video_path, batch_size=10, out_dir="250", max_batches=None):
+def create_dataset(video_path, batch_size=10, out_dir="250", max_batches=None):
     import pathlib
     import json
     import imageio
