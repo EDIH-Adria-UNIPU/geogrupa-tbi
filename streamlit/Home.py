@@ -88,7 +88,7 @@ def click_button():
         with st.spinner("Detection in progress..."):
             #create_dataset(tmp_filepath)
             telemetry(video)
-            #run_detection()
+            run_detection()
             triangulate_objects()
             #time.sleep(2)
             st.session_state.df = get_data()
