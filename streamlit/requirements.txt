@@ -13,3 +13,4 @@ openai==1.83.0
 pydantic==2.10.4
 telemetry-parser==0.3.0
 pillow==10.3.0
+opencv-python-headless
