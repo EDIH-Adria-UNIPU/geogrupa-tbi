@@ -13,6 +13,7 @@ dependencies = [
     "py360convert>=1.0.3",
     "python-dotenv>=1.1.0",
     "scikit-learn>=1.6.1",
+    "streamlit>=1.45.1",
     "telemetry-parser>=0.3.0",
     "ultralytics>=8.3.128",
 ]
