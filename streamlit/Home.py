@@ -91,7 +91,7 @@ def click_button():
             #run_detection()
             #triangulate_objects()
             #time.sleep(2)
-            st.session_state.df = get_data()
+            st.session_state.df = False
         st.success("Detection completed!", icon="✅")
         time.sleep(3)
     st.session_state.data=False
