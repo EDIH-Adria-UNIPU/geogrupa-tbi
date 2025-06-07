@@ -1,7 +1,7 @@
 streamlit==1.45.1
 pandas==2.2.1
 numpy==1.26.4
-opencv-python-headless
+opencv-contrib-python-headless
 py360convert==1.0.4
 folium==0.19.7
 geopy==2.4.1
