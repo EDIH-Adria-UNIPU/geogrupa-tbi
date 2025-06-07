@@ -3,7 +3,6 @@ pandas
 numpy
 opencv-python
 py360convert
-telemetry-parser
 folium
 geopy
 scikit-learn
