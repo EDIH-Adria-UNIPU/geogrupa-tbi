@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+opencv-python
+py360convert
+telemetry-parser
+folium
+geopy
+scikit-learn
+ultralytics
+python-dotenv
+openai
+pydantic
