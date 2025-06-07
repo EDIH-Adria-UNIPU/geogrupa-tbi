@@ -1,74 +1,45 @@
-def create_dataset(video_path, batch_size=10, out_dir="250", max_batches=None):
-    import pathlib
-    import json
-    import imageio
-    import py360convert as c2
-    from PIL import Image
+import json
+import pathlib
+import imageio
+import py360convert as c2
 
-    out_dir = pathlib.Path(out_dir)
+def create_dataset(video_path):
+    out_dir = pathlib.Path("250")
     out_dir.mkdir(exist_ok=True)
 
     reader = imageio.get_reader(video_path)
-    fps = reader.get_meta_data().get("fps", 30)
+    fps = reader.get_meta_data().get("fps", 30)  # Fallback ako nema FPS-a
 
-    try:
-        num_frames = reader.count_frames()
-    except Exception:
-        num_frames = 1000  # fallback
+    print(f"FPS: {fps}")
 
-    stride = max(1, int(round(fps * 2)))  # uzmi frame svakih 2 sekunde
+    stride = max(1, int(round(fps * 0.5)))
+    print(f"How many frames to skip between snapshots: {stride}")
 
-    total_batches = (num_frames + batch_size - 1) // batch_size
-    if max_batches:
-        total_batches = min(total_batches, max_batches)
+    fov, yaws, pitch = 90, [0, 90, 180, 270], 0
 
-    all_meta = []
     pano_id = 0
+    meta = []
 
-    for batch_index in range(total_batches):
-        print(f"Obrađujem batch {batch_index + 1}/{total_batches}")
+    for frame_idx, frame in enumerate(reader):
+        if frame_idx % stride != 0:
+            continue
 
-        start_idx = batch_index * batch_size
-        end_idx = start_idx + batch_size
+        stamp = frame_idx / fps  # seconds since start
 
-        for frame_idx in range(start_idx, min(end_idx, num_frames)):
-            if frame_idx % stride != 0:
-                continue
-
-            try:
-                frame = reader.get_data(frame_idx)
-            except Exception as e:
-                print(f"Greška u frameu {frame_idx}: {e}")
-                continue
-
-            stamp = frame_idx / fps
-            fov, yaws, pitch = 90, [0, 90, 180, 270], 0
-
-            for yaw in yaws:
-                try:
-                    perspective = c2.e2p(
-                        frame, fov_deg=fov, u_deg=yaw, v_deg=pitch, out_hw=(512, 512)
-                    )
-                    name = f"loc{pano_id:05d}_yaw{yaw:03d}.jpg"
-
-                    # Snimi s kompresijom JPEG (quality=85)
-                    img = Image.fromarray(perspective)
-                    img.save(out_dir / name, format="JPEG", quality=85, optimize=True)
-
-                    all_meta.append({
-                        "t": stamp,
-                        "yaw": yaw,
-                        "location_id": pano_id,
-                        "file": name
-                    })
-                except Exception as e:
-                    print(f"Greška kod yaw {yaw} frame {frame_idx}: {e}")
-
-            pano_id += 1
+        for yaw in yaws:
+            perspective = c2.e2p(
+                frame, fov_deg=fov, u_deg=yaw, v_deg=pitch, out_hw=(1024, 1024)
+            )
+            name = f"loc{pano_id:05d}_yaw{yaw:03d}.jpg"
+            imageio.imwrite(out_dir / name, perspective)
+            meta.append({
+                "t": stamp,
+                "yaw": yaw,
+                "location_id": pano_id,
+                "file": name
+            })
+        pano_id += 1
 
     reader.close()
 
-    # Spremi samo glavni index
-    index_file = out_dir / "index.json"
-    index_file.write_text(json.dumps(all_meta, indent=2))
-    print("✅ Gotovo.")
+    (out_dir / "index.json").write_text(json.dumps(meta, indent=2))
