@@ -13,7 +13,7 @@ st.set_page_config(
     page_icon="🚦",
 )
 
-st.image("streamlit/logo.svg")
+st.image("logo.svg")
 st.title("🛰️ GeoGrupa – Traffic Signs and Streetlight Poles Detection System")
 
 st.markdown("""
