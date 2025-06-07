@@ -7,7 +7,8 @@ py360convert==1.0.4
 folium==0.19.7
 geopy==2.4.1
 scikit-learn==1.6.1
-ultralytics==8.3.148
+ultralytics==8.3.99
+torch==2.6.0
 python-dotenv==1.1.0
 openai==1.83.0
 pydantic==2.10.4
