@@ -10,4 +10,4 @@ ultralytics
 python-dotenv
 openai
 pydantic
-telemetry-parser-py==0.3.0
+telemetry-parser
