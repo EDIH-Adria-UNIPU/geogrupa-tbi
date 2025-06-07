@@ -3,6 +3,7 @@ def create_dataset(video_path, batch_size=10, out_dir="250", max_batches=None):
     import json
     import imageio
     import py360convert as c2
+    from PIL import Image
 
     out_dir = pathlib.Path(out_dir)
     out_dir.mkdir(exist_ok=True)
@@ -13,7 +14,7 @@ def create_dataset(video_path, batch_size=10, out_dir="250", max_batches=None):
     try:
         num_frames = reader.count_frames()
     except Exception:
-        num_frames = 1000
+        num_frames = 1000  # fallback
 
     stride = max(1, int(round(fps * 2)))  # uzmi frame svakih 2 sekunde
 
@@ -49,7 +50,11 @@ def create_dataset(video_path, batch_size=10, out_dir="250", max_batches=None):
                         frame, fov_deg=fov, u_deg=yaw, v_deg=pitch, out_hw=(512, 512)
                     )
                     name = f"loc{pano_id:05d}_yaw{yaw:03d}.jpg"
-                    imageio.imwrite(out_dir / name, perspective)
+
+                    # Snimi s kompresijom JPEG (quality=85)
+                    img = Image.fromarray(perspective)
+                    img.save(out_dir / name, format="JPEG", quality=85, optimize=True)
+
                     all_meta.append({
                         "t": stamp,
                         "yaw": yaw,
@@ -58,6 +63,7 @@ def create_dataset(video_path, batch_size=10, out_dir="250", max_batches=None):
                     })
                 except Exception as e:
                     print(f"Greška kod yaw {yaw} frame {frame_idx}: {e}")
+
             pano_id += 1
 
     reader.close()
