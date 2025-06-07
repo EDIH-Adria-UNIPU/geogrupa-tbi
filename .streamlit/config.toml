@@ -4,3 +4,6 @@ runOnSave = false
 
 [theme]
 base="light"
+
+[runner]
+enableWatchdog = false
