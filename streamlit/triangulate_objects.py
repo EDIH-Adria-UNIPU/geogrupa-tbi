@@ -11,7 +11,7 @@ from sklearn.cluster import DBSCAN
 def triangulate_objects():
     pd.options.mode.chained_assignment = None
 
-    detection_dir = Path("detections")
+    detection_dir = Path("./streamlit/detections/")
     detection_df = pd.read_csv(detection_dir / "detections_geo.csv")
     telemetry = json.loads(Path("telemetry_835.json").read_text())["GPS"][
         "Data"
