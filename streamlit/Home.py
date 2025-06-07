@@ -91,14 +91,14 @@ def click_button():
             #run_detection()
             #triangulate_objects()
             #time.sleep(2)
-            st.session_state.df = False
+            st.session_state.df = get_data()
         st.success("Detection completed!", icon="✅")
         time.sleep(3)
     st.session_state.data=False
 
 @st.cache_data
 def get_data():
-    df = pd.read_csv("detections/detections_geo.csv")
+    df = pd.read_csv("./streamlit/detections/detections_geo.csv")
     return df
 
 col1, col2=st.columns([3,1])
