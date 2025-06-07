@@ -5,25 +5,24 @@ import math
 from pathlib import Path
 import time
 
-import cv2
 import numpy as np
+from PIL import Image
 from ultralytics import YOLO
 
 from classify_traffic_sign import classify_sign
+
 
 def run_detection():
     # PARAMETERS
     horizontal_fov_deg = 90.0
     time_offset = 5.0
     HDG_DT = 1.0
-    THUMB_SIZE = (120, 120)  # standard thumbnail size (width, height)
+    THUMB_SIZE = (120, 120)  # (width, height)
 
-    root = Path("250") 
+    root = Path("250")
     index = json.loads((root / "index.json").read_text())
 
-    telemetry = json.loads((Path("telemetry_835.json")).read_text())["GPS"][
-        "Data"
-    ]
+    telemetry = json.loads((Path("telemetry_835.json")).read_text())["GPS"]["Data"]
     valid_fixes = [r for r in telemetry if r.get("is_acquired")]
     valid_fixes.sort(key=lambda r: r["unix_timestamp"])
 
@@ -31,7 +30,6 @@ def run_detection():
     times = np.array([r["unix_timestamp"] - t0 for r in valid_fixes])
     lats = np.array([r["lat"] for r in valid_fixes])
     lons = np.array([r["lon"] for r in valid_fixes])
-
 
     def coord_at(sec: float) -> tuple[float, float]:
         sec += time_offset
@@ -47,16 +45,15 @@ def run_detection():
             lons[idx - 1] * (1 - w) + lons[idx] * w,
         )
 
-
     def bearing(lat1, lon1, lat2, lon2) -> float:
         phi1, phi2 = map(math.radians, (lat1, lat2))
         dlon = math.radians(lon2 - lon1)
         y = math.sin(dlon) * math.cos(phi2)
-        x = math.cos(phi1) * math.sin(phi2) - math.sin(phi1) * math.cos(phi2) * math.cos(
-            dlon
+        x = (
+            math.cos(phi1) * math.sin(phi2)
+            - math.sin(phi1) * math.cos(phi2) * math.cos(dlon)
         )
         return (math.degrees(math.atan2(y, x)) + 360) % 360
-
 
     models = {
         "traffic-sign": YOLO(str(Path("models") / "yolov8s-traffic-sign.pt")),
@@ -72,7 +69,6 @@ def run_detection():
     csv_writer.writerow(["lat", "lon", "bearing", "class", "conf", "frame", "thumb"])
 
     thumb_dir = detection_dir / "thumbnails"
-    thumb_dir = Path(thumb_dir)
     thumb_dir.mkdir(exist_ok=True)
 
     for record in index:
@@ -80,12 +76,18 @@ def run_detection():
         lat0, lon0 = coord_at(sec)
         heading = bearing(*coord_at(sec - HDG_DT), *coord_at(sec + HDG_DT))
 
-        img = cv2.imread(str(root / record["file"]))
-        h, w, _ = img.shape
+        # Open image with PIL
+        img_path = root / record["file"]
+        img_pil = Image.open(img_path).convert("RGB")  # ensure RGB
+
+        w, h = img_pil.size
+
+        # Convert PIL image to numpy array in RGB (for YOLO)
+        img_np = np.array(img_pil)
 
         for obj_type, model in models.items():
             results = model.predict(
-                img,
+                img_np,
                 classes=class_filters[obj_type],
                 conf=conf_thresholds[obj_type],
                 verbose=False,
@@ -98,25 +100,28 @@ def run_detection():
                 offset = math.degrees(math.atan(norm_x * math.tan(half_fov)))
                 az = (heading + record["yaw"] + offset) % 360
 
-                # padded crop
+                # padded crop (make sure coordinates are valid)
                 pad = 0.15
                 dx = int((x1 - x0) * pad)
                 dy = int((y1 - y0) * pad)
-                x0p, y0p = max(x0 - dx, 0), max(y0 - dy, 0)
-                x1p, y1p = min(x1 + dx, w), min(y1 + dy, h)
-                thumb = img[y0p:y1p, x0p:x1p]
-                thumb = cv2.resize(thumb, THUMB_SIZE, interpolation=cv2.INTER_AREA)
-                thumb_name = (
-                    f"{record['location_id']:05d}_{int(cx)}_{int(az)}_{obj_type}.jpg"
-                )
-                cv2.imwrite(str(thumb_dir / thumb_name), thumb)
+                x0p = max(x0 - dx, 0)
+                y0p = max(y0 - dy, 0)
+                x1p = min(x1 + dx, w)
+                y1p = min(y1 + dy, h)
 
-                """if obj_type == "traffic-sign":
-                    detected_category = classify_sign(Path(thumb_dir) / thumb_name)
+                # Crop using PIL (note PIL box is (left, upper, right, lower))
+                thumb_pil = img_pil.crop((x0p, y0p, x1p, y1p))
+                thumb_pil = thumb_pil.resize(THUMB_SIZE, Image.LANCZOS)
+
+                thumb_name = f"{record['location_id']:05d}_{int(cx)}_{int(az)}_{obj_type}.jpg"
+                thumb_path = thumb_dir / thumb_name
+                thumb_pil.save(thumb_path)
+
+                if obj_type == "traffic-sign":
+                    detected_category = classify_sign(thumb_path)
                     print(f"Detected category: {detected_category}")
-                else:"""
-                detected_category = obj_type
-
+                else:
+                    detected_category = obj_type
 
                 csv_writer.writerow(
                     [
