@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy
-opencv-python-headless
+opencv-python
 py360convert
 folium
 geopy
