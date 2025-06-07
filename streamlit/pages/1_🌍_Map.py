@@ -12,7 +12,7 @@ def image_to_base64(path):
 
 
 
-html_path = Path("../detections/objects_map.html")
+html_path = Path("./detections/objects_map.html")
 html_content = html_path.read_text(encoding="utf-8")
 
 def embed_images(html):
