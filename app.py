@@ -1,10 +1,13 @@
+import streamlit as st
+st.set_page_config(
+    page_title="Home",
+    page_icon="🚦",
+)
 import tempfile
 import time
 from pathlib import Path
-
 import pandas as pd
 
-import streamlit as st
 from main import (
     create_dataset,
     extract_telemetry,
@@ -12,13 +15,9 @@ from main import (
     run_detection,
     triangulate_objects,
 )
+from pages.Map import embed_images
 
-st.set_page_config(
-    page_title="Home",
-    page_icon="🚦",
-)
-
-# st.image("logo.svg")
+st.image("assets/geogrupa_logo.svg")
 st.title("🛰️ GeoGrupa – Traffic Signs and Streetlight Poles Detection System")
 
 st.markdown(
@@ -94,26 +93,31 @@ placeholder = st.empty()
 def click_button():
     with placeholder.container():
         with st.spinner("Detection in progress..."):
-            # Extract dataset ID from the uploaded video filename
-            video_path = Path(tmp_filepath)
-            dataset_id = extract_video_id(video_path)
+            try:
+                # Extract dataset ID from the uploaded video filename
+                video_path = Path(tmp_filepath)
+                dataset_id = extract_video_id(video_path)
 
-            # Step 1: Create dataset
-            dataset_dir = create_dataset(video_path, dataset_id)
+                # Step 1: Create dataset
+                dataset_dir = create_dataset(video_path, dataset_id)
 
-            # Step 2: Extract telemetry
-            telemetry_file = extract_telemetry(video_path, dataset_id)
+                # Step 2: Extract telemetry
+                telemetry_file = extract_telemetry(video_path, dataset_id)
 
-            # Step 3: Run detection
-            detection_dir = run_detection(dataset_dir, telemetry_file, dataset_id)
+                # Step 3: Run detection
+                detection_dir = run_detection(dataset_dir, telemetry_file, dataset_id)
 
-            # Step 4: Triangulate objects
-            triangulate_objects(detection_dir, telemetry_file, dataset_id)
+                # Step 4: Triangulate objects
+                triangulate_objects(detection_dir, telemetry_file, dataset_id)
 
-            # Store the dataset_id for later use
-            st.session_state.dataset_id = dataset_id
-            st.session_state.df = get_data(dataset_id)
-        st.success("Detection completed!", icon="✅")
+                # Store the dataset_id for later use
+                st.session_state.dataset_id = dataset_id
+                st.session_state.df = get_data(dataset_id)
+                st.success("Detection completed!", icon="✅")
+            except Exception as e:
+                print("Error:", e)
+                st.error("Detection error!", icon="❌")
+                
         time.sleep(3)
     st.session_state.data = False
 
@@ -152,11 +156,23 @@ if hasattr(st.session_state, "df") and st.session_state.df is not None:
             st.subheader("🗺️ Interactive Map")
             with open(map_file, "r", encoding="utf-8") as f:
                 map_html = f.read()
-            st.components.v1.html(map_html, height=500)
+                map_embed=embed_images(map_html)
+            st.components.v1.html(map_embed, height=500)
 
     # Display data table
     st.subheader("📊 Detection Data")
-    st.dataframe(st.session_state.df, use_container_width=True)
+    df=st.session_state.df
+    df = df [["lat", "lon", "bearing", "class", "conf"]]
+    df_unique = df.drop_duplicates(subset=['lat', 'lon'])
+    df_renamed = df_unique.rename(columns={
+            "lat": "Latitude",
+            "lon": "Longitude",
+            "bearing": "Bearing",
+            "class": "Class",
+            "conf": "Confidence"
+        })
+    st.session_state.df_named=df_renamed
+    st.dataframe(st.session_state.df_named, use_container_width=True)
 
     # Download buttons
     col1, col2 = st.columns(2)

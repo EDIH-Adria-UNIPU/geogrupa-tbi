@@ -22,22 +22,12 @@ if "data" not in st.session_state:
     st.session_state.data=True
 
 if not st.session_state.data:
+    st.header("📊 Table data")
+    st.write("")
     col1, col2, col3= st.columns([1,9,1])
     with col2:
         df = st.session_state.df
-        df["lat"]=df["lat"].round(6)
-        df["lon"]=df["lon"].round(6)
-        df_unique = df.drop_duplicates(subset=['lat', 'lon'])
-        df_renamed = df_unique.rename(columns={
-            "lat": "Latitude",
-            "lon": "Longitude",
-            "bearing": "Bearing",
-            "class": "Class",
-            "conf": "Confidence",
-            "frame": "Frame",
-            "thumb": "Thumbnail"
-        })
-        st.dataframe(df_renamed)
+        st.dataframe(df)
         csv = st.session_state.df.to_csv(index=False)
         st.download_button(
             label="📥 Download (.csv)",
