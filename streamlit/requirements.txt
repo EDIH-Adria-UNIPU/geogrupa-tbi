@@ -11,5 +11,3 @@ python-dotenv
 openai
 pydantic
 telemetry-parser
-tempfile
-json
