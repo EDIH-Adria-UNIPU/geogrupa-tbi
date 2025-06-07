@@ -13,7 +13,7 @@ def triangulate_objects():
 
     detection_dir = Path("./streamlit/detections/")
     detection_df = pd.read_csv(detection_dir / "detections_geo.csv")
-    telemetry = json.loads(Path("telemetry_835.json").read_text())["GPS"][
+    telemetry = json.loads(Path("./streamlit/telemetry_835.json").read_text())["GPS"][
         "Data"
     ]
     path = np.array([(e["lat"], e["lon"]) for e in telemetry])
