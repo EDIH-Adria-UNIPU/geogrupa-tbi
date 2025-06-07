@@ -12,7 +12,7 @@ def create_dataset(video_path):
 
     print(f"FPS: {fps}")
 
-    stride = max(1, int(round(fps * 0.5)))
+    stride = max(1, int(round(fps * 10)))
     print(f"How many frames to skip between snapshots: {stride}")
 
     fov, yaws, pitch = 90, [0, 90, 180, 270], 0
