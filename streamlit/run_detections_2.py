@@ -7,13 +7,14 @@ import time
 
 import numpy as np
 from PIL import Image
-from ultralytics import YOLO
+
 
 from classify_traffic_sign import classify_sign
 
 
 def run_detection():
     # PARAMETERS
+    from ultralytics import YOLO
     horizontal_fov_deg = 90.0
     time_offset = 5.0
     HDG_DT = 1.0
